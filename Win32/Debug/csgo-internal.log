@@ -1,0 +1,1488 @@
+﻿  pch.cpp
+  cfg.cpp
+  crash_handler.cpp
+  debug_overlay.cpp
+  draw_manager.cpp
+  event_log.cpp
+  game.cpp
+  hook_manager.cpp
+  fonts.cpp
+  aim_helper.cpp
+  custom_prediction.cpp
+  custom_tracing.cpp
+  dispatch_queue.cpp
+  dx_adapter.cpp
+  entity_rendering.cpp
+  events.cpp
+  player_list.cpp
+  shot_tracker.cpp
+  about_popup.cpp
+  payment_popup.cpp
+  public_software_popup.cpp
+  preview_model.cpp
+  public_software_item.cpp
+  selectable_config.cpp
+  selectable_script.cpp
+  active_hotkeys.cpp
+  bomb.cpp
+  indicators.cpp
+  spectators.cpp
+  anim.cpp
+  container.cpp
+  control.cpp
+  button.cpp
+  checkbox.cpp
+E:\evolv\util\hook.h(43,14): error C2039: "functions": 不是 "sdk" 的成员
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\client_state.h(7,11):
+      参见“sdk”的声明
+      E:\evolv\util\hook.h(43,14):
+      模板实例化上下文(最早的实例化上下文)为
+          E:\evolv\util\hook.h(31,29):
+          在编译类模板“util::hook”时
+  
+E:\evolv\util\hook.h(43,14): error C2039: "functions": 不是 "sdk" 的成员
+  (编译源文件“/base/game.cpp”)
+      E:\evolv\sdk\client_state.h(7,11):
+      参见“sdk”的声明
+      E:\evolv\util\hook.h(43,14):
+      模板实例化上下文(最早的实例化上下文)为
+          E:\evolv\util\hook.h(31,29):
+          在编译类模板“util::hook”时
+  
+E:\evolv\sdk\generated.h(4,21): error C2374: “interfaces::vengine_client014”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(4,21):
+      参见“interfaces::vengine_client014”的声明
+  
+E:\evolv\sdk\generated.h(4,21): error C2086: “const uint32_t interfaces::vengine_client014”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(4,21):
+      参见“interfaces::vengine_client014”的声明
+  
+E:\evolv\sdk\generated.h(5,21): error C2374: “interfaces::vclient018”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(5,21):
+      参见“interfaces::vclient018”的声明
+  
+E:\evolv\sdk\generated.h(5,21): error C2086: “const uint32_t interfaces::vclient018”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(5,21):
+      参见“interfaces::vclient018”的声明
+  
+E:\evolv\sdk\generated.h(6,21): error C2374: “interfaces::vclient_entity_list003”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(6,21):
+      参见“interfaces::vclient_entity_list003”的声明
+  
+E:\evolv\sdk\generated.h(6,21): error C2086: “const uint32_t interfaces::vclient_entity_list003”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(6,21):
+      参见“interfaces::vclient_entity_list003”的声明
+  
+E:\evolv\sdk\generated.h(7,21): error C2374: “interfaces::vengine_cvar007”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(7,21):
+      参见“interfaces::vengine_cvar007”的声明
+  
+E:\evolv\sdk\generated.h(7,21): error C2086: “const uint32_t interfaces::vengine_cvar007”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(7,21):
+      参见“interfaces::vengine_cvar007”的声明
+  
+E:\evolv\sdk\generated.h(8,21): error C2374: “interfaces::game_movement001”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(8,21):
+      参见“interfaces::game_movement001”的声明
+  
+E:\evolv\sdk\generated.h(8,21): error C2086: “const uint32_t interfaces::game_movement001”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(8,21):
+      参见“interfaces::game_movement001”的声明
+  
+E:\evolv\sdk\generated.h(9,21): error C2374: “interfaces::mdlcache004”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(9,21):
+      参见“interfaces::mdlcache004”的声明
+  
+E:\evolv\sdk\generated.h(9,21): error C2086: “const uint32_t interfaces::mdlcache004”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(9,21):
+      参见“interfaces::mdlcache004”的声明
+  
+E:\evolv\sdk\generated.h(10,21): error C2374: “interfaces::localize_001”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(10,21):
+      参见“interfaces::localize_001”的声明
+  
+E:\evolv\sdk\generated.h(10,21): error C2086: “const uint32_t interfaces::localize_001”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(10,21):
+      参见“interfaces::localize_001”的声明
+  
+E:\evolv\sdk\generated.h(11,21): error C2374: “interfaces::vclient_prediction001”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(11,21):
+      参见“interfaces::vclient_prediction001”的声明
+  
+E:\evolv\sdk\generated.h(11,21): error C2086: “const uint32_t interfaces::vclient_prediction001”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(11,21):
+      参见“interfaces::vclient_prediction001”的声明
+  
+E:\evolv\sdk\generated.h(12,21): error C2374: “interfaces::engine_trace_client004”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(12,21):
+      参见“interfaces::engine_trace_client004”的声明
+  
+E:\evolv\sdk\generated.h(12,21): error C2086: “const uint32_t interfaces::engine_trace_client004”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(12,21):
+      参见“interfaces::engine_trace_client004”的声明
+  
+E:\evolv\sdk\generated.h(13,21): error C2374: “interfaces::vphysics_surface_props001”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(13,21):
+      参见“interfaces::vphysics_surface_props001”的声明
+  
+E:\evolv\sdk\generated.h(13,21): error C2086: “const uint32_t interfaces::vphysics_surface_props001”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(13,21):
+      参见“interfaces::vphysics_surface_props001”的声明
+  
+E:\evolv\sdk\generated.h(14,21): error C2374: “interfaces::vmodel_info_client004”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(14,21):
+      参见“interfaces::vmodel_info_client004”的声明
+  
+E:\evolv\sdk\generated.h(14,21): error C2086: “const uint32_t interfaces::vmodel_info_client004”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(14,21):
+      参见“interfaces::vmodel_info_client004”的声明
+  
+E:\evolv\sdk\generated.h(15,21): error C2374: “interfaces::vdebug_overlay004”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(15,21):
+      参见“interfaces::vdebug_overlay004”的声明
+  
+E:\evolv\sdk\generated.h(15,21): error C2086: “const uint32_t interfaces::vdebug_overlay004”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(15,21):
+      参见“interfaces::vdebug_overlay004”的声明
+  
+E:\evolv\sdk\generated.h(16,21): error C2374: “interfaces::vengine_render_view014”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(16,21):
+      参见“interfaces::vengine_render_view014”的声明
+  
+E:\evolv\sdk\generated.h(16,21): error C2086: “const uint32_t interfaces::vengine_render_view014”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(16,21):
+      参见“interfaces::vengine_render_view014”的声明
+  
+E:\evolv\sdk\generated.h(17,21): error C2374: “interfaces::vgui_surface031”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(17,21):
+      参见“interfaces::vgui_surface031”的声明
+  
+E:\evolv\sdk\generated.h(17,21): error C2086: “const uint32_t interfaces::vgui_surface031”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(17,21):
+      参见“interfaces::vgui_surface031”的声明
+  
+E:\evolv\sdk\generated.h(18,21): error C2374: “interfaces::vengine_model016”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(18,21):
+      参见“interfaces::vengine_model016”的声明
+  
+E:\evolv\sdk\generated.h(18,21): error C2086: “const uint32_t interfaces::vengine_model016”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(18,21):
+      参见“interfaces::vengine_model016”的声明
+  
+E:\evolv\sdk\generated.h(19,21): error C2374: “interfaces::vmaterial_system080”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(19,21):
+      参见“interfaces::vmaterial_system080”的声明
+  
+E:\evolv\sdk\generated.h(19,21): error C2086: “const uint32_t interfaces::vmaterial_system080”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(19,21):
+      参见“interfaces::vmaterial_system080”的声明
+  
+E:\evolv\sdk\generated.h(20,21): error C2374: “interfaces::vengine_client_string_table001”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(20,21):
+      参见“interfaces::vengine_client_string_table001”的声明
+  
+E:\evolv\sdk\generated.h(20,21): error C2086: “const uint32_t interfaces::vengine_client_string_table001”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(20,21):
+      参见“interfaces::vengine_client_string_table001”的声明
+  
+E:\evolv\sdk\generated.h(21,21): error C2374: “interfaces::material_system_hardware_config013_callback”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(21,21):
+      参见“interfaces::material_system_hardware_config013_callback”的声明
+  
+E:\evolv\sdk\generated.h(21,21): error C2086: “const uint32_t interfaces::material_system_hardware_config013_callback”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(21,21):
+      参见“interfaces::material_system_hardware_config013_callback”的声明
+  
+E:\evolv\sdk\generated.h(22,21): error C2374: “interfaces::input_system_version001”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(22,21):
+      参见“interfaces::input_system_version001”的声明
+  
+E:\evolv\sdk\generated.h(22,21): error C2086: “const uint32_t interfaces::input_system_version001”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(22,21):
+      参见“interfaces::input_system_version001”的声明
+  
+E:\evolv\sdk\generated.h(23,21): error C2374: “interfaces::gameeventsmanager002”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(23,21):
+      参见“interfaces::gameeventsmanager002”的声明
+  
+E:\evolv\sdk\generated.h(23,21): error C2086: “const uint32_t interfaces::gameeventsmanager002”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(23,21):
+      参见“interfaces::gameeventsmanager002”的声明
+  
+E:\evolv\sdk\generated.h(24,21): error C2374: “interfaces::panorama_uiengine001”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(24,21):
+      参见“interfaces::panorama_uiengine001”的声明
+  
+E:\evolv\sdk\generated.h(24,21): error C2086: “const uint32_t interfaces::panorama_uiengine001”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(24,21):
+      参见“interfaces::panorama_uiengine001”的声明
+  
+E:\evolv\sdk\generated.h(25,21): error C2374: “interfaces::vstudio_render026”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(25,21):
+      参见“interfaces::vstudio_render026”的声明
+  
+E:\evolv\sdk\generated.h(25,21): error C2086: “const uint32_t interfaces::vstudio_render026”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(25,21):
+      参见“interfaces::vstudio_render026”的声明
+  
+E:\evolv\sdk\generated.h(26,21): error C2374: “interfaces::game_console004”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(26,21):
+      参见“interfaces::game_console004”的声明
+  
+E:\evolv\sdk\generated.h(26,21): error C2086: “const uint32_t interfaces::game_console004”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(26,21):
+      参见“interfaces::game_console004”的声明
+  
+E:\evolv\sdk\generated.h(31,21): error C2374: “globals::global_vars_base”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(31,21):
+      参见“globals::global_vars_base”的声明
+  
+E:\evolv\sdk\generated.h(31,21): error C2086: “const uint32_t globals::global_vars_base”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(31,21):
+      参见“globals::global_vars_base”的声明
+  
+E:\evolv\sdk\generated.h(32,21): error C2374: “globals::mem_alloc”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(32,21):
+      参见“globals::mem_alloc”的声明
+  
+E:\evolv\sdk\generated.h(32,21): error C2086: “const uint32_t globals::mem_alloc”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(32,21):
+      参见“globals::mem_alloc”的声明
+  
+E:\evolv\sdk\generated.h(33,21): error C2374: “globals::player_resource”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(33,21):
+      参见“globals::player_resource”的声明
+  
+E:\evolv\sdk\generated.h(33,21): error C2086: “const uint32_t globals::player_resource”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(33,21):
+      参见“globals::player_resource”的声明
+  
+E:\evolv\sdk\generated.h(34,21): error C2374: “globals::client_state”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(34,21):
+      参见“globals::client_state”的声明
+  
+E:\evolv\sdk\generated.h(34,21): error C2086: “const uint32_t globals::client_state”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(34,21):
+      参见“globals::client_state”的声明
+  
+E:\evolv\sdk\generated.h(35,21): error C2374: “globals::input”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(35,21):
+      参见“globals::input”的声明
+  
+E:\evolv\sdk\generated.h(35,21): error C2086: “const uint32_t globals::input”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(35,21):
+      参见“globals::input”的声明
+  
+E:\evolv\sdk\generated.h(36,21): error C2374: “globals::weapon_system”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(36,21):
+      参见“globals::weapon_system”的声明
+  
+E:\evolv\sdk\generated.h(36,21): error C2086: “const uint32_t globals::weapon_system”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(36,21):
+      参见“globals::weapon_system”的声明
+  
+E:\evolv\sdk\generated.h(37,21): error C2374: “globals::game_rules”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(37,21):
+      参见“globals::game_rules”的声明
+  
+E:\evolv\sdk\generated.h(37,21): error C2086: “const uint32_t globals::game_rules”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(37,21):
+      参见“globals::game_rules”的声明
+  
+E:\evolv\sdk\generated.h(38,21): error C2374: “globals::view_render”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(38,21):
+      参见“globals::view_render”的声明
+  
+E:\evolv\sdk\generated.h(38,21): error C2086: “const uint32_t globals::view_render”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(38,21):
+      参见“globals::view_render”的声明
+  
+E:\evolv\sdk\generated.h(39,21): error C2374: “globals::glow_manager”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(39,21):
+      参见“globals::glow_manager”的声明
+  
+E:\evolv\sdk\generated.h(39,21): error C2086: “const uint32_t globals::glow_manager”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(39,21):
+      参见“globals::glow_manager”的声明
+  
+E:\evolv\sdk\generated.h(40,21): error C2374: “globals::leaf_system”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(40,21):
+      参见“globals::leaf_system”的声明
+  
+E:\evolv\sdk\generated.h(40,21): error C2086: “const uint32_t globals::leaf_system”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(40,21):
+      参见“globals::leaf_system”的声明
+  
+E:\evolv\sdk\generated.h(41,21): error C2374: “globals::key_values_system”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(41,21):
+      参见“globals::key_values_system”的声明
+  
+E:\evolv\sdk\generated.h(41,21): error C2086: “const uint32_t globals::key_values_system”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(41,21):
+      参见“globals::key_values_system”的声明
+  
+E:\evolv\sdk\generated.h(42,21): error C2374: “globals::modifier_table”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(42,21):
+      参见“globals::modifier_table”的声明
+  
+E:\evolv\sdk\generated.h(42,21): error C2086: “const uint32_t globals::modifier_table”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(42,21):
+      参见“globals::modifier_table”的声明
+  
+E:\evolv\sdk\generated.h(43,21): error C2374: “globals::econ_item_system”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(43,21):
+      参见“globals::econ_item_system”的声明
+  
+E:\evolv\sdk\generated.h(43,21): error C2086: “const uint32_t globals::econ_item_system”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(43,21):
+      参见“globals::econ_item_system”的声明
+  
+E:\evolv\sdk\generated.h(44,21): error C2374: “globals::input_enable”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(44,21):
+      参见“globals::input_enable”的声明
+  
+E:\evolv\sdk\generated.h(44,21): error C2086: “const uint32_t globals::input_enable”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(44,21):
+      参见“globals::input_enable”的声明
+  
+E:\evolv\sdk\generated.h(46,21): error C2374: “globals::hud_instance”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(46,21):
+      参见“globals::hud_instance”的声明
+  
+E:\evolv\sdk\generated.h(46,21): error C2086: “const uint32_t globals::hud_instance”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(46,21):
+      参见“globals::hud_instance”的声明
+  
+E:\evolv\sdk\generated.h(48,21): error C2374: “globals::client_side_addons_mask”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(48,21):
+      参见“globals::client_side_addons_mask”的声明
+  
+E:\evolv\sdk\generated.h(48,21): error C2086: “const uint32_t globals::client_side_addons_mask”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(48,21):
+      参见“globals::client_side_addons_mask”的声明
+  
+E:\evolv\sdk\generated.h(49,21): error C2374: “globals::post_processing_params”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(49,21):
+      参见“globals::post_processing_params”的声明
+  
+E:\evolv\sdk\generated.h(49,21): error C2086: “const uint32_t globals::post_processing_params”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(49,21):
+      参见“globals::post_processing_params”的声明
+  
+E:\evolv\sdk\generated.h(50,21): error C2374: “globals::smoke_count”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(50,21):
+      参见“globals::smoke_count”的声明
+  
+E:\evolv\sdk\generated.h(50,21): error C2086: “const uint32_t globals::smoke_count”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(50,21):
+      参见“globals::smoke_count”的声明
+  
+E:\evolv\sdk\generated.h(52,21): error C2374: “globals::anim_layer_orders”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(52,21):
+      参见“globals::anim_layer_orders”的声明
+  
+E:\evolv\sdk\generated.h(52,21): error C2086: “const uint32_t globals::anim_layer_orders”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(52,21):
+      参见“globals::anim_layer_orders”的声明
+  
+E:\evolv\sdk\generated.h(53,21): error C2374: “globals::trace_filter_simple_vtable”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(53,21):
+      参见“globals::trace_filter_simple_vtable”的声明
+  
+E:\evolv\sdk\generated.h(53,21): error C2086: “const uint32_t globals::trace_filter_simple_vtable”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(53,21):
+      参见“globals::trace_filter_simple_vtable”的声明
+  
+E:\evolv\sdk\generated.h(55,21): error C2374: “globals::world_to_screen”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(55,21):
+      参见“globals::world_to_screen”的声明
+  
+E:\evolv\sdk\generated.h(55,21): error C2086: “const uint32_t globals::world_to_screen”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(55,21):
+      参见“globals::world_to_screen”的声明
+  
+E:\evolv\sdk\generated.h(57,21): error C2374: “globals::softbody_environment”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(57,21):
+      参见“globals::softbody_environment”的声明
+  
+E:\evolv\sdk\generated.h(57,21): error C2086: “const uint32_t globals::softbody_environment”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(57,21):
+      参见“globals::softbody_environment”的声明
+  
+E:\evolv\sdk\generated.h(59,21): error C2374: “globals::patch_cl_interp_clamp”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(59,21):
+      参见“globals::patch_cl_interp_clamp”的声明
+  
+E:\evolv\sdk\generated.h(59,21): error C2086: “const uint32_t globals::patch_cl_interp_clamp”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(59,21):
+      参见“globals::patch_cl_interp_clamp”的声明
+  
+E:\evolv\sdk\generated.h(60,21): error C2374: “globals::patch_send_move_cmds”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(60,21):
+      参见“globals::patch_send_move_cmds”的声明
+  
+E:\evolv\sdk\generated.h(60,21): error C2086: “const uint32_t globals::patch_send_move_cmds”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(60,21):
+      参见“globals::patch_send_move_cmds”的声明
+  
+E:\evolv\sdk\generated.h(64,22): error C2374: “globals::material_system::disable_render_target_allocation_forever”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(64,22):
+      参见“globals::material_system::disable_render_target_allocation_forever”的声明
+  
+E:\evolv\sdk\generated.h(64,22): error C2086: “const uint32_t globals::material_system::disable_render_target_allocation_forever”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(64,22):
+      参见“globals::material_system::disable_render_target_allocation_forever”的声明
+  
+E:\evolv\sdk\generated.h(74,23): error C2374: “functions::v8::isolate::enter”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(74,23):
+      参见“functions::v8::isolate::enter”的声明
+  
+E:\evolv\sdk\generated.h(74,23): error C2086: “const uint32_t functions::v8::isolate::enter”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(74,23):
+      参见“functions::v8::isolate::enter”的声明
+  
+E:\evolv\sdk\generated.h(75,23): error C2374: “functions::v8::isolate::exit”: 重定义；多次初始化
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(75,23):
+      参见“functions::v8::isolate::exit”的声明
+  
+E:\evolv\sdk\generated.h(75,23): error C2086: “const uint32_t functions::v8::isolate::exit”: 重定义
+  (编译源文件“/base/hook_manager.cpp”)
+      E:\evolv\sdk\generated.h(75,23):
+      参见“functions::v8::isolate::exit”的声明
+  
+E:\evolv\sdk\generated.h(75,23): error C1003: 错误计数超过 100；正在停止编译
+  (编译源文件“/base/hook_manager.cpp”)
+  
+  child_tab.cpp
+E:\evolv\detail\entity_rendering.cpp(279,54): error C3083: “globals”:“::”左侧的符号必须是一种类型
+  (编译源文件“/detail/entity_rendering.cpp”)
+  
+E:\evolv\detail\entity_rendering.cpp(279,63): error C2039: "softbody_environment": 不是 "sdk" 的成员
+  (编译源文件“/detail/entity_rendering.cpp”)
+      E:\evolv\sdk\render_view.h(9,11):
+      参见“sdk”的声明
+  
+E:\evolv\detail\entity_rendering.cpp(279,63): error C2065: “softbody_environment”: 未声明的标识符
+  (编译源文件“/detail/entity_rendering.cpp”)
+  
+E:\evolv\detail\entity_rendering.cpp(299,59): error C3083: “offsets”:“::”左侧的符号必须是一种类型
+  (编译源文件“/detail/entity_rendering.cpp”)
+  
+E:\evolv\detail\entity_rendering.cpp(299,68): error C3083: “csplayer”:“::”左侧的符号必须是一种类型
+  (编译源文件“/detail/entity_rendering.cpp”)
+  
+E:\evolv\detail\entity_rendering.cpp(299,78): error C2275: “sdk::animation_layers”: 应为表达式而不是类型
+  (编译源文件“/detail/entity_rendering.cpp”)
+  
+E:\evolv\detail\entity_rendering.cpp(300,41): error C3083: “offsets”:“::”左侧的符号必须是一种类型
+  (编译源文件“/detail/entity_rendering.cpp”)
+  
+E:\evolv\detail\entity_rendering.cpp(300,50): error C3083: “csplayer”:“::”左侧的符号必须是一种类型
+  (编译源文件“/detail/entity_rendering.cpp”)
+  
+E:\evolv\detail\entity_rendering.cpp(300,60): error C2275: “sdk::animation_layers”: 应为表达式而不是类型
+  (编译源文件“/detail/entity_rendering.cpp”)
+  
+E:\evolv\detail\entity_rendering.cpp(301,41): error C3083: “offsets”:“::”左侧的符号必须是一种类型
+  (编译源文件“/detail/entity_rendering.cpp”)
+  
+E:\evolv\detail\entity_rendering.cpp(301,50): error C3083: “csplayer”:“::”左侧的符号必须是一种类型
+  (编译源文件“/detail/entity_rendering.cpp”)
+  
+E:\evolv\detail\entity_rendering.cpp(301,60): error C2275: “sdk::animation_layers”: 应为表达式而不是类型
+  (编译源文件“/detail/entity_rendering.cpp”)
+  
+E:\evolv\detail\entity_rendering.cpp(302,41): error C3083: “offsets”:“::”左侧的符号必须是一种类型
+  (编译源文件“/detail/entity_rendering.cpp”)
+  
+E:\evolv\detail\entity_rendering.cpp(302,50): error C3083: “csplayer”:“::”左侧的符号必须是一种类型
+  (编译源文件“/detail/entity_rendering.cpp”)
+  
+E:\evolv\detail\entity_rendering.cpp(302,60): error C2275: “sdk::animation_layers”: 应为表达式而不是类型
+  (编译源文件“/detail/entity_rendering.cpp”)
+  
+E:\evolv\detail\entity_rendering.cpp(303,59): error C3083: “offsets”:“::”左侧的符号必须是一种类型
+  (编译源文件“/detail/entity_rendering.cpp”)
+  
+E:\evolv\detail\entity_rendering.cpp(303,68): error C3083: “csplayer”:“::”左侧的符号必须是一种类型
+  (编译源文件“/detail/entity_rendering.cpp”)
+  
+E:\evolv\detail\entity_rendering.cpp(303,78): error C2275: “sdk::animation_layers”: 应为表达式而不是类型
+  (编译源文件“/detail/entity_rendering.cpp”)
+  
+E:\evolv\detail\entity_rendering.cpp(349,54): error C3083: “offsets”:“::”左侧的符号必须是一种类型
+  (编译源文件“/detail/entity_rendering.cpp”)
+  
+E:\evolv\detail\entity_rendering.cpp(349,63): error C3083: “csplayer”:“::”左侧的符号必须是一种类型
+  (编译源文件“/detail/entity_rendering.cpp”)
+  
+E:\evolv\detail\entity_rendering.cpp(349,73): error C2275: “sdk::anim_state”: 应为表达式而不是类型
+  (编译源文件“/detail/entity_rendering.cpp”)
+  
+  color_picker.cpp
+  combo_box.cpp
+  control_container.cpp
+E:\evolv\util\hook.h(43,14): error C2039: "functions": 不是 "sdk" 的成员
+  (编译源文件“/detail/player_list.cpp”)
+      E:\evolv\sdk\model_render.h(18,11):
+      参见“sdk”的声明
+      E:\evolv\util\hook.h(43,14):
+      模板实例化上下文(最早的实例化上下文)为
+          E:\evolv\util\hook.h(31,29):
+          在编译类模板“util::hook”时
+  
+  group.cpp
+  hotkey.cpp
+  hsv_slider.cpp
+  label.cpp
+  layout.cpp
+  list.cpp
+  loading.cpp
+  notification_control.cpp
+  popup.cpp
+  search_result.cpp
+  selectable.cpp
+  slider.cpp
+  spacer.cpp
+  tab.cpp
+  tabs_layout.cpp
+  text_input.cpp
+  toggle_button.cpp
+  widget.cpp
+  window.cpp
+  gui.cpp
+  helpers.cpp
+  input.cpp
+  notify_system.cpp
+  color_picker_popup.cpp
+  combo_box_popup.cpp
+  dialog_box.cpp
+  hotkey_popup.cpp
+  message_box.cpp
+  notifications_popup.cpp
+  search_popup.cpp
+  advertisement.cpp
+  antiaim.cpp
+  chams.cpp
+  esp.cpp
+  grenade_prediction.cpp
+  misc.cpp
+  movement.cpp
+  peek_assistant.cpp
+  rage.cpp
+  skinchanger.cpp
+  tickbase.cpp
+  visuals.cpp
+  client_mode.cpp
+  client_state.cpp
+  cs_grenade_projectile.cpp
+  cs_player.cpp
+  engine_client.cpp
+  entity.cpp
+  game_movement.cpp
+  hl_client.cpp
+  inputsystem.cpp
+  leaf_system.cpp
+E:\evolv\util\hook.h(43,14): error C2039: "functions": 不是 "sdk" 的成员
+  (编译源文件“/hooks/client_mode.cpp”)
+      E:\evolv\sdk\client_state.h(7,11):
+      参见“sdk”的声明
+      E:\evolv\util\hook.h(43,14):
+      模板实例化上下文(最早的实例化上下文)为
+          E:\evolv\util\hook.h(31,29):
+          在编译类模板“util::hook”时
+  
+  mat_system_surface.cpp
+E:\evolv\util\hook.h(43,14): error C2039: "functions": 不是 "sdk" 的成员
+  (编译源文件“/hacks/misc.cpp”)
+      E:\evolv\sdk\client_state.h(7,11):
+      参见“sdk”的声明
+      E:\evolv\util\hook.h(43,14):
+      模板实例化上下文(最早的实例化上下文)为
+          E:\evolv\util\hook.h(31,29):
+          在编译类模板“util::hook”时
+  
+E:\evolv\util\hook.h(43,14): error C2039: "functions": 不是 "sdk" 的成员
+  (编译源文件“/hooks/cs_player.cpp”)
+      E:\evolv\sdk\client_state.h(7,11):
+      参见“sdk”的声明
+      E:\evolv\util\hook.h(43,14):
+      模板实例化上下文(最早的实例化上下文)为
+          E:\evolv\util\hook.h(31,29):
+          在编译类模板“util::hook”时
+  
+E:\evolv\util\hook.h(43,14): error C2039: "functions": 不是 "sdk" 的成员
+  (编译源文件“/hooks/engine_client.cpp”)
+      E:\evolv\sdk\client_state.h(7,11):
+      参见“sdk”的声明
+      E:\evolv\util\hook.h(43,14):
+      模板实例化上下文(最早的实例化上下文)为
+          E:\evolv\util\hook.h(31,29):
+          在编译类模板“util::hook”时
+  
+E:\evolv\util\hook.h(43,14): error C2039: "functions": 不是 "sdk" 的成员
+  (编译源文件“/hooks/client_state.cpp”)
+      E:\evolv\sdk\client_state.h(7,11):
+      参见“sdk”的声明
+      E:\evolv\util\hook.h(43,14):
+      模板实例化上下文(最早的实例化上下文)为
+          E:\evolv\util\hook.h(31,29):
+          在编译类模板“util::hook”时
+  
+E:\evolv\util\hook.h(43,14): error C2039: "functions": 不是 "sdk" 的成员
+  (编译源文件“/hooks/cs_grenade_projectile.cpp”)
+      E:\evolv\sdk\client_state.h(7,11):
+      参见“sdk”的声明
+      E:\evolv\util\hook.h(43,14):
+      模板实例化上下文(最早的实例化上下文)为
+          E:\evolv\util\hook.h(31,29):
+          在编译类模板“util::hook”时
+  
+E:\evolv\util\hook.h(43,14): error C2039: "functions": 不是 "sdk" 的成员
+  (编译源文件“/hooks/entity.cpp”)
+      E:\evolv\sdk\client_state.h(7,11):
+      参见“sdk”的声明
+      E:\evolv\util\hook.h(43,14):
+      模板实例化上下文(最早的实例化上下文)为
+          E:\evolv\util\hook.h(31,29):
+          在编译类模板“util::hook”时
+  
+E:\evolv\util\hook.h(43,14): error C2039: "functions": 不是 "sdk" 的成员
+  (编译源文件“/hooks/game_movement.cpp”)
+      E:\evolv\sdk\client_state.h(7,11):
+      参见“sdk”的声明
+      E:\evolv\util\hook.h(43,14):
+      模板实例化上下文(最早的实例化上下文)为
+          E:\evolv\util\hook.h(31,29):
+          在编译类模板“util::hook”时
+  
+E:\evolv\util\hook.h(43,14): error C2039: "functions": 不是 "sdk" 的成员
+  (编译源文件“/hooks/hl_client.cpp”)
+      E:\evolv\sdk\client_state.h(7,11):
+      参见“sdk”的声明
+      E:\evolv\util\hook.h(43,14):
+      模板实例化上下文(最早的实例化上下文)为
+          E:\evolv\util\hook.h(31,29):
+          在编译类模板“util::hook”时
+  
+  miscellaneous.cpp
+  model_render.cpp
+  prediction.cpp
+E:\evolv\util\hook.h(43,14): error C2039: "functions": 不是 "sdk" 的成员
+  (编译源文件“/hooks/inputsystem.cpp”)
+      E:\evolv\sdk\client_state.h(7,11):
+      参见“sdk”的声明
+      E:\evolv\util\hook.h(43,14):
+      模板实例化上下文(最早的实例化上下文)为
+          E:\evolv\util\hook.h(31,29):
+          在编译类模板“util::hook”时
+  
+E:\evolv\hooks\entity.cpp(282,72): error C3083: “functions”:“::”左侧的符号必须是一种类型
+  (编译源文件“/hooks/entity.cpp”)
+  
+E:\evolv\hooks\entity.cpp(282,83): error C2039: "lookup_sequence": 不是 "sdk" 的成员
+  (编译源文件“/hooks/entity.cpp”)
+      E:\evolv\sdk\misc.h(16,11):
+      参见“sdk”的声明
+  
+E:\evolv\hooks\entity.cpp(282,64): error C2664: “uintptr_t util::encrypted_ptr<uintptr_t>::at(ptrdiff_t) const”: 无法将参数 1 从“int (__fastcall *)(sdk::entity_t *,uint32_t,const char *)”转换为“ptrdiff_t”
+  (编译源文件“/hooks/entity.cpp”)
+      E:\evolv\hooks\entity.cpp(282,83):
+      没有使该转换得以执行的上下文
+      E:\evolv\util\value_obfuscation.h(57,33):
+      参见“util::encrypted_ptr<uintptr_t>::at”的声明
+      E:\evolv\hooks\entity.cpp(282,64):
+      尝试匹配参数列表“(overloaded-function)”时
+  
+E:\evolv\util\hook.h(43,14): error C2039: "functions": 不是 "sdk" 的成员
+  (编译源文件“/hacks/skinchanger.cpp”)
+      E:\evolv\sdk\client_state.h(7,11):
+      参见“sdk”的声明
+      E:\evolv\util\hook.h(43,14):
+      模板实例化上下文(最早的实例化上下文)为
+          E:\evolv\util\hook.h(31,29):
+          在编译类模板“util::hook”时
+  
+  recv_proxies.cpp
+  steam.cpp
+  trace_filter_for_player_head_collision.cpp
+  weapon.cpp
+  cvar.cpp
+  database.cpp
+  engine_api.cpp
+  entity_api.cpp
+  event.cpp
+  event_log_api.cpp
+  fs.cpp
+  globals.cpp
+E:\evolv\hooks\inputsystem.cpp(22,73): error C3083: “globals”:“::”左侧的符号必须是一种类型
+  (编译源文件“/hooks/inputsystem.cpp”)
+  
+E:\evolv\hooks\inputsystem.cpp(22,82): error C2039: "input_enable": 不是 "sdk" 的成员
+  (编译源文件“/hooks/inputsystem.cpp”)
+      E:\evolv\sdk\misc.h(16,11):
+      参见“sdk”的声明
+  
+E:\evolv\hooks\inputsystem.cpp(22,82): error C3536: “input_enable”: 初始化之前无法使用
+  (编译源文件“/hooks/inputsystem.cpp”)
+  
+E:\evolv\hooks\inputsystem.cpp(78,54): error C3083: “functions”:“::”左侧的符号必须是一种类型
+  (编译源文件“/hooks/inputsystem.cpp”)
+  
+E:\evolv\hooks\inputsystem.cpp(78,65): error C3083: “input_system”:“::”左侧的符号必须是一种类型
+  (编译源文件“/hooks/inputsystem.cpp”)
+  
+E:\evolv\hooks\inputsystem.cpp(78,79): error C2039: "vk_to_button_code": 不是 "sdk" 的成员
+  (编译源文件“/hooks/inputsystem.cpp”)
+      E:\evolv\sdk\misc.h(16,11):
+      参见“sdk”的声明
+  
+E:\evolv\hooks\inputsystem.cpp(78,79): error C2065: “vk_to_button_code”: 未声明的标识符
+  (编译源文件“/hooks/inputsystem.cpp”)
+  
+E:\evolv\hooks\inputsystem.cpp(77,14): error C2737: “button_code”: 必须初始化 const 对象
+  (编译源文件“/hooks/inputsystem.cpp”)
+  
+E:\evolv\hooks\inputsystem.cpp(79,65): error C3536: “button_code”: 初始化之前无法使用
+  (编译源文件“/hooks/inputsystem.cpp”)
+  
+E:\evolv\hooks\inputsystem.cpp(79,18): error C2737: “binding”: 必须初始化 const 对象
+  (编译源文件“/hooks/inputsystem.cpp”)
+  
+E:\evolv\hooks\inputsystem.cpp(79,79): error C3536: “binding”: 初始化之前无法使用
+  (编译源文件“/hooks/inputsystem.cpp”)
+  
+  gui_api.cpp
+  input_api.cpp
+  mat.cpp
+E:\evolv\util\hook.h(43,14): error C2039: "functions": 不是 "sdk" 的成员
+  (编译源文件“/hooks/leaf_system.cpp”)
+      E:\evolv\sdk\client_state.h(7,11):
+      参见“sdk”的声明
+      E:\evolv\util\hook.h(43,14):
+      模板实例化上下文(最早的实例化上下文)为
+          E:\evolv\util\hook.h(31,29):
+          在编译类模板“util::hook”时
+  
+  math.cpp
+  net.cpp
+  net_prop.cpp
+  panorama.cpp
+  payments.cpp
+  render.cpp
+  timer.cpp
+  user_cmd.cpp
+E:\evolv\util\hook.h(43,14): error C2039: "functions": 不是 "sdk" 的成员
+  (编译源文件“/hooks/mat_system_surface.cpp”)
+      E:\evolv\sdk\client_state.h(7,11):
+      参见“sdk”的声明
+      E:\evolv\util\hook.h(43,14):
+      模板实例化上下文(最早的实例化上下文)为
+          E:\evolv\util\hook.h(31,29):
+          在编译类模板“util::hook”时
+  
+E:\evolv\util\hook.h(43,14): error C2039: "functions": 不是 "sdk" 的成员
+  (编译源文件“/hooks/weapon.cpp”)
+      E:\evolv\sdk\client_state.h(7,11):
+      参见“sdk”的声明
+      E:\evolv\util\hook.h(43,14):
+      模板实例化上下文(最早的实例化上下文)为
+          E:\evolv\util\hook.h(31,29):
+          在编译类模板“util::hook”时
+  
+E:\evolv\util\hook.h(43,14): error C2039: "functions": 不是 "sdk" 的成员
+  (编译源文件“/hooks/model_render.cpp”)
+      E:\evolv\sdk\client_state.h(7,11):
+      参见“sdk”的声明
+      E:\evolv\util\hook.h(43,14):
+      模板实例化上下文(最早的实例化上下文)为
+          E:\evolv\util\hook.h(31,29):
+          在编译类模板“util::hook”时
+  
+E:\evolv\util\hook.h(43,14): error C2039: "functions": 不是 "sdk" 的成员
+  (编译源文件“/hooks/steam.cpp”)
+      E:\evolv\sdk\client_state.h(7,11):
+      参见“sdk”的声明
+      E:\evolv\util\hook.h(43,14):
+      模板实例化上下文(最早的实例化上下文)为
+          E:\evolv\util\hook.h(31,29):
+          在编译类模板“util::hook”时
+  
+E:\evolv\util\hook.h(43,14): error C2039: "functions": 不是 "sdk" 的成员
+  (编译源文件“/hooks/trace_filter_for_player_head_collision.cpp”)
+      E:\evolv\sdk\client_state.h(7,11):
+      参见“sdk”的声明
+      E:\evolv\util\hook.h(43,14):
+      模板实例化上下文(最早的实例化上下文)为
+          E:\evolv\util\hook.h(31,29):
+          在编译类模板“util::hook”时
+  
+  utils.cpp
+E:\evolv\util\hook.h(43,14): error C2039: "functions": 不是 "sdk" 的成员
+  (编译源文件“/hooks/recv_proxies.cpp”)
+      E:\evolv\sdk\client_state.h(7,11):
+      参见“sdk”的声明
+      E:\evolv\util\hook.h(43,14):
+      模板实例化上下文(最早的实例化上下文)为
+          E:\evolv\util\hook.h(31,29):
+          在编译类模板“util::hook”时
+  
+  zip.cpp
+E:\evolv\util\hook.h(43,14): error C2039: "functions": 不是 "sdk" 的成员
+  (编译源文件“/hooks/miscellaneous.cpp”)
+      E:\evolv\sdk\client_state.h(7,11):
+      参见“sdk”的声明
+      E:\evolv\util\hook.h(43,14):
+      模板实例化上下文(最早的实例化上下文)为
+          E:\evolv\util\hook.h(31,29):
+          在编译类模板“util::hook”时
+  
+  engine.cpp
+E:\evolv\util\hook.h(43,14): error C2039: "functions": 不是 "sdk" 的成员
+  (编译源文件“/hooks/prediction.cpp”)
+      E:\evolv\sdk\client_state.h(7,11):
+      参见“sdk”的声明
+      E:\evolv\util\hook.h(43,14):
+      模板实例化上下文(最早的实例化上下文)为
+          E:\evolv\util\hook.h(31,29):
+          在编译类模板“util::hook”时
+  
+  helpers_api.cpp
+  runtime_state.cpp
+  script.cpp
+  state.cpp
+  main.cpp
+  debug.cpp
+  snow_effect.cpp
+  menu.cpp
+  misc_tab.cpp
+  rage_tab.cpp
+  scripts_tab.cpp
+  skinchanger_tab.cpp
+  visuals_tab.cpp
+  app_hack.cpp
+  load_indicator.cpp
+E:\evolv\sdk\generated.h(4,21): error C2374: “interfaces::vengine_client014”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(4,21):
+      参见“interfaces::vengine_client014”的声明
+  
+E:\evolv\sdk\generated.h(4,21): error C2086: “const uint32_t interfaces::vengine_client014”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(4,21):
+      参见“interfaces::vengine_client014”的声明
+  
+E:\evolv\sdk\generated.h(5,21): error C2374: “interfaces::vclient018”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(5,21):
+      参见“interfaces::vclient018”的声明
+  
+E:\evolv\sdk\generated.h(5,21): error C2086: “const uint32_t interfaces::vclient018”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(5,21):
+      参见“interfaces::vclient018”的声明
+  
+E:\evolv\sdk\generated.h(6,21): error C2374: “interfaces::vclient_entity_list003”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(6,21):
+      参见“interfaces::vclient_entity_list003”的声明
+  
+E:\evolv\sdk\generated.h(6,21): error C2086: “const uint32_t interfaces::vclient_entity_list003”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(6,21):
+      参见“interfaces::vclient_entity_list003”的声明
+  
+E:\evolv\sdk\generated.h(7,21): error C2374: “interfaces::vengine_cvar007”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(7,21):
+      参见“interfaces::vengine_cvar007”的声明
+  
+E:\evolv\sdk\generated.h(7,21): error C2086: “const uint32_t interfaces::vengine_cvar007”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(7,21):
+      参见“interfaces::vengine_cvar007”的声明
+  
+E:\evolv\sdk\generated.h(8,21): error C2374: “interfaces::game_movement001”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(8,21):
+      参见“interfaces::game_movement001”的声明
+  
+E:\evolv\sdk\generated.h(8,21): error C2086: “const uint32_t interfaces::game_movement001”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(8,21):
+      参见“interfaces::game_movement001”的声明
+  
+E:\evolv\sdk\generated.h(9,21): error C2374: “interfaces::mdlcache004”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(9,21):
+      参见“interfaces::mdlcache004”的声明
+  
+E:\evolv\sdk\generated.h(9,21): error C2086: “const uint32_t interfaces::mdlcache004”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(9,21):
+      参见“interfaces::mdlcache004”的声明
+  
+E:\evolv\sdk\generated.h(10,21): error C2374: “interfaces::localize_001”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(10,21):
+      参见“interfaces::localize_001”的声明
+  
+E:\evolv\sdk\generated.h(10,21): error C2086: “const uint32_t interfaces::localize_001”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(10,21):
+      参见“interfaces::localize_001”的声明
+  
+E:\evolv\sdk\generated.h(11,21): error C2374: “interfaces::vclient_prediction001”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(11,21):
+      参见“interfaces::vclient_prediction001”的声明
+  
+E:\evolv\sdk\generated.h(11,21): error C2086: “const uint32_t interfaces::vclient_prediction001”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(11,21):
+      参见“interfaces::vclient_prediction001”的声明
+  
+E:\evolv\sdk\generated.h(12,21): error C2374: “interfaces::engine_trace_client004”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(12,21):
+      参见“interfaces::engine_trace_client004”的声明
+  
+E:\evolv\sdk\generated.h(12,21): error C2086: “const uint32_t interfaces::engine_trace_client004”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(12,21):
+      参见“interfaces::engine_trace_client004”的声明
+  
+E:\evolv\sdk\generated.h(13,21): error C2374: “interfaces::vphysics_surface_props001”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(13,21):
+      参见“interfaces::vphysics_surface_props001”的声明
+  
+E:\evolv\sdk\generated.h(13,21): error C2086: “const uint32_t interfaces::vphysics_surface_props001”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(13,21):
+      参见“interfaces::vphysics_surface_props001”的声明
+  
+E:\evolv\sdk\generated.h(14,21): error C2374: “interfaces::vmodel_info_client004”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(14,21):
+      参见“interfaces::vmodel_info_client004”的声明
+  
+E:\evolv\sdk\generated.h(14,21): error C2086: “const uint32_t interfaces::vmodel_info_client004”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(14,21):
+      参见“interfaces::vmodel_info_client004”的声明
+  
+E:\evolv\sdk\generated.h(15,21): error C2374: “interfaces::vdebug_overlay004”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(15,21):
+      参见“interfaces::vdebug_overlay004”的声明
+  
+E:\evolv\sdk\generated.h(15,21): error C2086: “const uint32_t interfaces::vdebug_overlay004”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(15,21):
+      参见“interfaces::vdebug_overlay004”的声明
+  
+E:\evolv\sdk\generated.h(16,21): error C2374: “interfaces::vengine_render_view014”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(16,21):
+      参见“interfaces::vengine_render_view014”的声明
+  
+E:\evolv\sdk\generated.h(16,21): error C2086: “const uint32_t interfaces::vengine_render_view014”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(16,21):
+      参见“interfaces::vengine_render_view014”的声明
+  
+E:\evolv\sdk\generated.h(17,21): error C2374: “interfaces::vgui_surface031”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(17,21):
+      参见“interfaces::vgui_surface031”的声明
+  
+E:\evolv\sdk\generated.h(17,21): error C2086: “const uint32_t interfaces::vgui_surface031”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(17,21):
+      参见“interfaces::vgui_surface031”的声明
+  
+E:\evolv\sdk\generated.h(18,21): error C2374: “interfaces::vengine_model016”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(18,21):
+      参见“interfaces::vengine_model016”的声明
+  
+E:\evolv\sdk\generated.h(18,21): error C2086: “const uint32_t interfaces::vengine_model016”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(18,21):
+      参见“interfaces::vengine_model016”的声明
+  
+E:\evolv\sdk\generated.h(19,21): error C2374: “interfaces::vmaterial_system080”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(19,21):
+      参见“interfaces::vmaterial_system080”的声明
+  
+E:\evolv\sdk\generated.h(19,21): error C2086: “const uint32_t interfaces::vmaterial_system080”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(19,21):
+      参见“interfaces::vmaterial_system080”的声明
+  
+E:\evolv\sdk\generated.h(20,21): error C2374: “interfaces::vengine_client_string_table001”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(20,21):
+      参见“interfaces::vengine_client_string_table001”的声明
+  
+E:\evolv\sdk\generated.h(20,21): error C2086: “const uint32_t interfaces::vengine_client_string_table001”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(20,21):
+      参见“interfaces::vengine_client_string_table001”的声明
+  
+E:\evolv\sdk\generated.h(21,21): error C2374: “interfaces::material_system_hardware_config013_callback”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(21,21):
+      参见“interfaces::material_system_hardware_config013_callback”的声明
+  
+E:\evolv\sdk\generated.h(21,21): error C2086: “const uint32_t interfaces::material_system_hardware_config013_callback”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(21,21):
+      参见“interfaces::material_system_hardware_config013_callback”的声明
+  
+E:\evolv\sdk\generated.h(22,21): error C2374: “interfaces::input_system_version001”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(22,21):
+      参见“interfaces::input_system_version001”的声明
+  
+E:\evolv\sdk\generated.h(22,21): error C2086: “const uint32_t interfaces::input_system_version001”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(22,21):
+      参见“interfaces::input_system_version001”的声明
+  
+E:\evolv\sdk\generated.h(23,21): error C2374: “interfaces::gameeventsmanager002”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(23,21):
+      参见“interfaces::gameeventsmanager002”的声明
+  
+E:\evolv\sdk\generated.h(23,21): error C2086: “const uint32_t interfaces::gameeventsmanager002”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(23,21):
+      参见“interfaces::gameeventsmanager002”的声明
+  
+E:\evolv\sdk\generated.h(24,21): error C2374: “interfaces::panorama_uiengine001”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(24,21):
+      参见“interfaces::panorama_uiengine001”的声明
+  
+E:\evolv\sdk\generated.h(24,21): error C2086: “const uint32_t interfaces::panorama_uiengine001”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(24,21):
+      参见“interfaces::panorama_uiengine001”的声明
+  
+E:\evolv\sdk\generated.h(25,21): error C2374: “interfaces::vstudio_render026”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(25,21):
+      参见“interfaces::vstudio_render026”的声明
+  
+E:\evolv\sdk\generated.h(25,21): error C2086: “const uint32_t interfaces::vstudio_render026”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(25,21):
+      参见“interfaces::vstudio_render026”的声明
+  
+E:\evolv\sdk\generated.h(26,21): error C2374: “interfaces::game_console004”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(26,21):
+      参见“interfaces::game_console004”的声明
+  
+E:\evolv\sdk\generated.h(26,21): error C2086: “const uint32_t interfaces::game_console004”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(26,21):
+      参见“interfaces::game_console004”的声明
+  
+E:\evolv\sdk\generated.h(31,21): error C2374: “globals::global_vars_base”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(31,21):
+      参见“globals::global_vars_base”的声明
+  
+E:\evolv\sdk\generated.h(31,21): error C2086: “const uint32_t globals::global_vars_base”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(31,21):
+      参见“globals::global_vars_base”的声明
+  
+E:\evolv\sdk\generated.h(32,21): error C2374: “globals::mem_alloc”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(32,21):
+      参见“globals::mem_alloc”的声明
+  
+E:\evolv\sdk\generated.h(32,21): error C2086: “const uint32_t globals::mem_alloc”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(32,21):
+      参见“globals::mem_alloc”的声明
+  
+E:\evolv\sdk\generated.h(33,21): error C2374: “globals::player_resource”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(33,21):
+      参见“globals::player_resource”的声明
+  
+E:\evolv\sdk\generated.h(33,21): error C2086: “const uint32_t globals::player_resource”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(33,21):
+      参见“globals::player_resource”的声明
+  
+E:\evolv\sdk\generated.h(34,21): error C2374: “globals::client_state”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(34,21):
+      参见“globals::client_state”的声明
+  
+E:\evolv\sdk\generated.h(34,21): error C2086: “const uint32_t globals::client_state”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(34,21):
+      参见“globals::client_state”的声明
+  
+E:\evolv\sdk\generated.h(35,21): error C2374: “globals::input”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(35,21):
+      参见“globals::input”的声明
+  
+E:\evolv\sdk\generated.h(35,21): error C2086: “const uint32_t globals::input”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(35,21):
+      参见“globals::input”的声明
+  
+E:\evolv\sdk\generated.h(36,21): error C2374: “globals::weapon_system”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(36,21):
+      参见“globals::weapon_system”的声明
+  
+E:\evolv\sdk\generated.h(36,21): error C2086: “const uint32_t globals::weapon_system”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(36,21):
+      参见“globals::weapon_system”的声明
+  
+E:\evolv\sdk\generated.h(37,21): error C2374: “globals::game_rules”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(37,21):
+      参见“globals::game_rules”的声明
+  
+E:\evolv\sdk\generated.h(37,21): error C2086: “const uint32_t globals::game_rules”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(37,21):
+      参见“globals::game_rules”的声明
+  
+E:\evolv\sdk\generated.h(38,21): error C2374: “globals::view_render”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(38,21):
+      参见“globals::view_render”的声明
+  
+E:\evolv\sdk\generated.h(38,21): error C2086: “const uint32_t globals::view_render”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(38,21):
+      参见“globals::view_render”的声明
+  
+E:\evolv\sdk\generated.h(39,21): error C2374: “globals::glow_manager”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(39,21):
+      参见“globals::glow_manager”的声明
+  
+E:\evolv\sdk\generated.h(39,21): error C2086: “const uint32_t globals::glow_manager”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(39,21):
+      参见“globals::glow_manager”的声明
+  
+E:\evolv\sdk\generated.h(40,21): error C2374: “globals::leaf_system”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(40,21):
+      参见“globals::leaf_system”的声明
+  
+E:\evolv\sdk\generated.h(40,21): error C2086: “const uint32_t globals::leaf_system”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(40,21):
+      参见“globals::leaf_system”的声明
+  
+E:\evolv\sdk\generated.h(41,21): error C2374: “globals::key_values_system”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(41,21):
+      参见“globals::key_values_system”的声明
+  
+E:\evolv\sdk\generated.h(41,21): error C2086: “const uint32_t globals::key_values_system”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(41,21):
+      参见“globals::key_values_system”的声明
+  
+E:\evolv\sdk\generated.h(42,21): error C2374: “globals::modifier_table”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(42,21):
+      参见“globals::modifier_table”的声明
+  
+E:\evolv\sdk\generated.h(42,21): error C2086: “const uint32_t globals::modifier_table”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(42,21):
+      参见“globals::modifier_table”的声明
+  
+E:\evolv\sdk\generated.h(43,21): error C2374: “globals::econ_item_system”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(43,21):
+      参见“globals::econ_item_system”的声明
+  
+E:\evolv\sdk\generated.h(43,21): error C2086: “const uint32_t globals::econ_item_system”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(43,21):
+      参见“globals::econ_item_system”的声明
+  
+E:\evolv\sdk\generated.h(44,21): error C2374: “globals::input_enable”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(44,21):
+      参见“globals::input_enable”的声明
+  
+E:\evolv\sdk\generated.h(44,21): error C2086: “const uint32_t globals::input_enable”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(44,21):
+      参见“globals::input_enable”的声明
+  
+E:\evolv\sdk\generated.h(46,21): error C2374: “globals::hud_instance”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(46,21):
+      参见“globals::hud_instance”的声明
+  
+E:\evolv\sdk\generated.h(46,21): error C2086: “const uint32_t globals::hud_instance”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(46,21):
+      参见“globals::hud_instance”的声明
+  
+E:\evolv\sdk\generated.h(48,21): error C2374: “globals::client_side_addons_mask”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(48,21):
+      参见“globals::client_side_addons_mask”的声明
+  
+E:\evolv\sdk\generated.h(48,21): error C2086: “const uint32_t globals::client_side_addons_mask”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(48,21):
+      参见“globals::client_side_addons_mask”的声明
+  
+E:\evolv\sdk\generated.h(49,21): error C2374: “globals::post_processing_params”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(49,21):
+      参见“globals::post_processing_params”的声明
+  
+E:\evolv\sdk\generated.h(49,21): error C2086: “const uint32_t globals::post_processing_params”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(49,21):
+      参见“globals::post_processing_params”的声明
+  
+E:\evolv\sdk\generated.h(50,21): error C2374: “globals::smoke_count”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(50,21):
+      参见“globals::smoke_count”的声明
+  
+E:\evolv\sdk\generated.h(50,21): error C2086: “const uint32_t globals::smoke_count”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(50,21):
+      参见“globals::smoke_count”的声明
+  
+E:\evolv\sdk\generated.h(52,21): error C2374: “globals::anim_layer_orders”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(52,21):
+      参见“globals::anim_layer_orders”的声明
+  
+E:\evolv\sdk\generated.h(52,21): error C2086: “const uint32_t globals::anim_layer_orders”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(52,21):
+      参见“globals::anim_layer_orders”的声明
+  
+E:\evolv\sdk\generated.h(53,21): error C2374: “globals::trace_filter_simple_vtable”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(53,21):
+      参见“globals::trace_filter_simple_vtable”的声明
+  
+E:\evolv\sdk\generated.h(53,21): error C2086: “const uint32_t globals::trace_filter_simple_vtable”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(53,21):
+      参见“globals::trace_filter_simple_vtable”的声明
+  
+E:\evolv\sdk\generated.h(55,21): error C2374: “globals::world_to_screen”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(55,21):
+      参见“globals::world_to_screen”的声明
+  
+E:\evolv\sdk\generated.h(55,21): error C2086: “const uint32_t globals::world_to_screen”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(55,21):
+      参见“globals::world_to_screen”的声明
+  
+E:\evolv\sdk\generated.h(57,21): error C2374: “globals::softbody_environment”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(57,21):
+      参见“globals::softbody_environment”的声明
+  
+E:\evolv\sdk\generated.h(57,21): error C2086: “const uint32_t globals::softbody_environment”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(57,21):
+      参见“globals::softbody_environment”的声明
+  
+E:\evolv\sdk\generated.h(59,21): error C2374: “globals::patch_cl_interp_clamp”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(59,21):
+      参见“globals::patch_cl_interp_clamp”的声明
+  
+E:\evolv\sdk\generated.h(59,21): error C2086: “const uint32_t globals::patch_cl_interp_clamp”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(59,21):
+      参见“globals::patch_cl_interp_clamp”的声明
+  
+E:\evolv\sdk\generated.h(60,21): error C2374: “globals::patch_send_move_cmds”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(60,21):
+      参见“globals::patch_send_move_cmds”的声明
+  
+E:\evolv\sdk\generated.h(60,21): error C2086: “const uint32_t globals::patch_send_move_cmds”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(60,21):
+      参见“globals::patch_send_move_cmds”的声明
+  
+E:\evolv\sdk\generated.h(64,22): error C2374: “globals::material_system::disable_render_target_allocation_forever”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(64,22):
+      参见“globals::material_system::disable_render_target_allocation_forever”的声明
+  
+E:\evolv\sdk\generated.h(64,22): error C2086: “const uint32_t globals::material_system::disable_render_target_allocation_forever”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(64,22):
+      参见“globals::material_system::disable_render_target_allocation_forever”的声明
+  
+E:\evolv\sdk\generated.h(74,23): error C2374: “functions::v8::isolate::enter”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(74,23):
+      参见“functions::v8::isolate::enter”的声明
+  
+E:\evolv\sdk\generated.h(74,23): error C2086: “const uint32_t functions::v8::isolate::enter”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(74,23):
+      参见“functions::v8::isolate::enter”的声明
+  
+E:\evolv\sdk\generated.h(75,23): error C2374: “functions::v8::isolate::exit”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(75,23):
+      参见“functions::v8::isolate::exit”的声明
+  
+E:\evolv\sdk\generated.h(75,23): error C2086: “const uint32_t functions::v8::isolate::exit”: 重定义
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(75,23):
+      参见“functions::v8::isolate::exit”的声明
+  
+E:\evolv\sdk\generated.h(80,23): error C2374: “functions::v8::context::enter”: 重定义；多次初始化
+  (编译源文件“/lua/api/utils.cpp”)
+      E:\evolv\sdk\generated.h(80,23):
+      参见“functions::v8::context::enter”的声明
+  
+E:\evolv\sdk\generated.h(80,23): error C1003: 错误计数超过 100；正在停止编译
+  (编译源文件“/lua/api/utils.cpp”)
+  
+  net_helpers.cpp
+  adapter_dx9.cpp
+  cmd_buffer.cpp
+  ib_dx11.cpp
+  ib_dx9.cpp
+  vb_dx11.cpp
+  vb_dx9.cpp
+  layer.cpp
+  renderer.cpp
+  animated_texture.cpp
+  font.cpp
+  shader.cpp
+  texture.cpp
+  cvar_lexer.cpp
+  fnv1a.cpp
+  memory.cpp

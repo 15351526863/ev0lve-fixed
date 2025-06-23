@@ -1,0 +1,4951 @@
+﻿cl : 命令行  warning D9025: 正在重写“/sdl”(用“/GS-”)
+  cfg.cpp
+E:\evolv\util\misc.h(27,20): error C2976: “std::vector'”: 模板 参数太少
+  (编译源文件“base/cfg.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(27,40): error C2955: “std::vector”: 使用 类 模板 需要 模板 参数列表
+  (编译源文件“base/cfg.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(27,40): error C2027: 使用了未定义类型“std::vector”
+  (编译源文件“base/cfg.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(27,40): error C2079: “util::split”使用未定义的 class“std::vector”
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\util\misc.h(29,7): error C2976: “std::vector'”: 模板 参数太少
+  (编译源文件“base/cfg.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(29,30): error C2641: 无法推导“std::vector”的模板参数
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\util\misc.h(29,30): error C2783: “std::vector<<unnamed-symbol>,<unnamed-symbol>> std::vector(void)”: 无法推导“<unnamed-symbol>”的 模板 参数
+  (编译源文件“base/cfg.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(29,30): error C2783: “std::vector<<unnamed-symbol>,<unnamed-symbol>> std::vector(void)”: 无法推导“<unnamed-symbol>”的 模板 参数
+  (编译源文件“base/cfg.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(29,30): error C2780: “std::vector<<unnamed-symbol>,<unnamed-symbol>> std::vector(std::vector<<unnamed-symbol>,<unnamed-symbol>>)”: 应输入 1 个参数，却提供了 0 个
+  (编译源文件“base/cfg.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(35,3): error C2027: 使用了未定义类型“std::vector”
+  (编译源文件“base/cfg.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(39,2): error C2027: 使用了未定义类型“std::vector”
+  (编译源文件“base/cfg.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\base\game.h(60,2): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“base/cfg.cpp”)
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(111,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(111,2): error C3867: “sdk::ik_context::construct”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(112,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(112,2): error C3867: “sdk::ik_context::destruct”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(117,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(117,2): error C3867: “sdk::ik_context::init”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(122,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(122,2): error C3867: “sdk::ik_context::update_targets”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(126,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(126,2): error C3867: “sdk::ik_context::solve_dependencies”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(137,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(137,2): error C2065: “fn_is_breakable”: 未声明的标识符
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(140,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(140,2): error C2065: “fn_remove_viewmodel_arm_models”: 未声明的标识符
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(143,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(143,2): error C2065: “fn_update_viewmodel_arm_models”: 未声明的标识符
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(220,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(220,2): error C2065: “fn_emit_sound”: 未声明的标识符
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(223,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(223,2): error C2065: “fn_lookup_sequence”: 未声明的标识符
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(226,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(226,2): error C2065: “fn_get_sequence_activity”: 未声明的标识符
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(229,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(229,2): error C2065: “fn_lookup_bone”: 未声明的标识符
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2065: “weapon”: 未声明的标识符
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2065: “owner”: 未声明的标识符
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2065: “sequence”: 未声明的标识符
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(238,52): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(238,63): error C2065: “add_to_dirty_kd_tree”: 未声明的标识符
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(252,21): error C3313: “result”: 变量不能具有类型“const void”
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(254,8): error C3536: “result”: 初始化之前无法使用
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(295,28): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\entity.h(295,50): error C2065: “fn_on_simulation_time_changing”: 未声明的标识符
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\keyvalues.h(23,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\keyvalues.h(23,2): error C3867: “sdk::keyvalues::init”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\keyvalues.h(26,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\keyvalues.h(26,2): error C3867: “sdk::keyvalues::load_from_buffer”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\keyvalues.h(30,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\keyvalues.h(30,2): error C3867: “sdk::keyvalues::set_string_int”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\keyvalues.h(61,67): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\keyvalues.h(61,64): error C2664: “uintptr_t util::encrypted_ptr<uintptr_t>::at(ptrdiff_t) const”: 无法将参数 1 从“sdk::keyvalues *(__cdecl *)(uintptr_t)”转换为“ptrdiff_t”
+  (编译源文件“base/cfg.cpp”)
+      E:\evolv\sdk\keyvalues.h(61,89):
+      没有使该转换得以执行的上下文
+      E:\evolv\util\value_obfuscation.h(57,33):
+      参见“util::encrypted_ptr<uintptr_t>::at”的声明
+      E:\evolv\sdk\keyvalues.h(61,64):
+      尝试匹配参数列表“(overloaded-function)”时
+  
+E:\evolv\sdk\model_info_client.h(590,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(590,2): error C3867: “sdk::sequence_hash::find_hash”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(600,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(600,2): error C3867: “sdk::activity_mapping::reinitialize”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(741,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(741,2): error C3867: “sdk::cstudiohdr::init”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(744,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(744,2): error C3867: “sdk::cstudiohdr::init_softbody”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(747,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(747,2): error C3867: “sdk::cstudiohdr::find_mapping”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(748,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(748,2): error C3867: “sdk::cstudiohdr::index_model_sequences”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(708,80): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(708,96): error C2065: “lookup”: 未声明的标识符
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\math.h(104,65): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\math.h(104,62): error C2664: “uintptr_t util::encrypted_ptr<uintptr_t>::at(ptrdiff_t) const”: 无法将参数 1 从“int32_t (__cdecl *)(int32_t,int32_t)”转换为“ptrdiff_t”
+  (编译源文件“base/cfg.cpp”)
+      E:\evolv\sdk\math.h(104,76):
+      没有使该转换得以执行的上下文
+      E:\evolv\util\value_obfuscation.h(57,33):
+      参见“util::encrypted_ptr<uintptr_t>::at”的声明
+      E:\evolv\sdk\math.h(104,62):
+      尝试匹配参数列表“(overloaded-function)”时
+  
+E:\evolv\sdk\math.h(109,59): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\math.h(109,56): error C2664: “uintptr_t util::encrypted_ptr<uintptr_t>::at(ptrdiff_t) const”: 无法将参数 1 从“float (__cdecl *)(float,float)”转换为“ptrdiff_t”
+  (编译源文件“base/cfg.cpp”)
+      E:\evolv\sdk\math.h(109,70):
+      没有使该转换得以执行的上下文
+      E:\evolv\util\value_obfuscation.h(57,33):
+      参见“util::encrypted_ptr<uintptr_t>::at”的声明
+      E:\evolv\sdk\math.h(109,56):
+      尝试匹配参数列表“(overloaded-function)”时
+  
+E:\evolv\sdk\math.h(114,47): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\math.h(114,44): error C2664: “uintptr_t util::encrypted_ptr<uintptr_t>::at(ptrdiff_t) const”: 无法将参数 1 从“void (__cdecl *)(uint32_t)”转换为“ptrdiff_t”
+  (编译源文件“base/cfg.cpp”)
+      E:\evolv\sdk\math.h(114,58):
+      没有使该转换得以执行的上下文
+      E:\evolv\util\value_obfuscation.h(57,33):
+      参见“util::encrypted_ptr<uintptr_t>::at”的声明
+      E:\evolv\sdk\math.h(114,44):
+      尝试匹配参数列表“(overloaded-function)”时
+  
+E:\evolv\sdk\math.h(122,33): error C2653: “globals”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\math.h(122,42): error C2065: “world_to_screen”: 未声明的标识符
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\weapon.h(72,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\weapon.h(72,2): error C2065: “fn_get_econ_static_data”: 未声明的标识符
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\weapon.h(80,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\weapon.h(80,2): error C2065: “fn_get_econ_item_view”: 未声明的标识符
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\weapon.h(83,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\weapon.h(83,2): error C2065: “fn_equip_glove”: 未声明的标识符
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\weapon.h(98,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\weapon.h(98,2): error C2065: “clip1”: 未声明的标识符
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\weapon.h(98,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\weapon.h(98,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/cfg.cpp”)
+  
+E:\evolv\sdk\weapon.h(98,2): error C1003: 错误计数超过 100；正在停止编译
+  (编译源文件“base/cfg.cpp”)
+  
+  crash_handler.cpp
+E:\evolv\base\crash_handler.h(9,8): error C2039: "string": 不是 "std" 的成员
+  (编译源文件“base/crash_handler.cpp”)
+      E:\evolv\predefined C++ types (compiler internal)(356,11):
+      参见“std”的声明
+  
+E:\evolv\base\crash_handler.h(9,15): error C3646: “name”: 未知重写说明符
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\base\crash_handler.h(9,8): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\base\crash_handler.h(10,13): error C3646: “address”: 未知重写说明符
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\base\crash_handler.h(10,3): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\base\crash_handler.h(11,8): error C2039: "string": 不是 "std" 的成员
+  (编译源文件“base/crash_handler.cpp”)
+      E:\evolv\predefined C++ types (compiler internal)(356,11):
+      参见“std”的声明
+  
+E:\evolv\base\crash_handler.h(11,15): error C3646: “mod”: 未知重写说明符
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\base\crash_handler.h(11,8): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\base\crash_handler.h(19,21): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\base\crash_handler.h(19,2): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\base\crash_handler.h(19,24): error C2334: “{”的前面有意外标记；跳过明显的函数体
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\base\crash_handler.h(20,7): error C2039: "exception": 不是 "std" 的成员
+  (编译源文件“base/crash_handler.cpp”)
+      E:\evolv\predefined C++ types (compiler internal)(356,11):
+      参见“std”的声明
+  
+E:\evolv\base\crash_handler.h(20,17): error C3646: “std_ex”: 未知重写说明符
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\base\crash_handler.h(20,23): error C2059: 语法错误:“{”
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\base\crash_handler.h(20,23): error C2334: “{”的前面有意外标记；跳过明显的函数体
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\base\crash_handler.h(23,34): error C2039: "function": 不是 "std" 的成员
+  (编译源文件“base/crash_handler.cpp”)
+      E:\evolv\predefined C++ types (compiler internal)(356,11):
+      参见“std”的声明
+  
+E:\evolv\base\crash_handler.h(23,23): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\base\crash_handler.h(23,59): error C2039: "string": 不是 "std" 的成员
+  (编译源文件“base/crash_handler.cpp”)
+      E:\evolv\predefined C++ types (compiler internal)(356,11):
+      参见“std”的声明
+  
+E:\evolv\base\crash_handler.h(23,48): error C2143: 语法错误: 缺少“)”(在“const”的前面)
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\base\crash_handler.h(23,48): error C2059: 语法错误:“const”
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\base\crash_handler.h(23,73): error C2065: “uintptr_t”: 未声明的标识符
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\base\crash_handler.h(23,89): error C2065: “uintptr_t”: 未声明的标识符
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\base\crash_handler.h(23,104): error C2947: 应由“>”终止 模板参数列表，却找到“>”
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\base\crash_handler.h(23,34): error C2144: 语法错误:“<error type>”的前面应有“)”
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\base\crash_handler.h(23,34): error C2144: 语法错误:“<error type>”的前面应有“;”
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\base\crash_handler.h(23,111): error C2059: 语法错误:“)”
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\base\crash_handler.h(24,28): error C2039: "function": 不是 "std" 的成员
+  (编译源文件“base/crash_handler.cpp”)
+      E:\evolv\predefined C++ types (compiler internal)(356,11):
+      参见“std”的声明
+  
+E:\evolv\base\crash_handler.h(24,17): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\base\crash_handler.h(24,28): error C7568: 假定的函数模板“function”后面缺少参数列表
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\base\crash_handler.h(24,28): error C2144: 语法错误:“<error type>”的前面应有“)”
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\base\crash_handler.h(24,28): error C2144: 语法错误:“<error type>”的前面应有“;”
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\base\crash_handler.h(24,74): error C2059: 语法错误:“)”
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\base\crash_handler.h(24,70): error C2086: “<error type> &crash_handler_t::func”: 重定义
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\base\crash_handler.h(26,7): error C2039: "unordered_map": 不是 "std" 的成员
+  (编译源文件“base/crash_handler.cpp”)
+      E:\evolv\predefined C++ types (compiler internal)(356,11):
+      参见“std”的声明
+  
+E:\evolv\base\crash_handler.h(26,21): error C2065: “uint32_t”: 未声明的标识符
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\base\crash_handler.h(26,36): error C2039: "string": 不是 "std" 的成员
+  (编译源文件“base/crash_handler.cpp”)
+      E:\evolv\predefined C++ types (compiler internal)(356,11):
+      参见“std”的声明
+  
+E:\evolv\base\crash_handler.h(26,36): error C2065: “string”: 未声明的标识符
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\base\crash_handler.h(26,7): error C7568: 假定的函数模板“unordered_map”后面缺少参数列表
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\base\crash_handler.h(26,7): error C2062: 意外的类型“<error type>” 
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\base\crash_handler.h(26,59): error C2238: 意外的标记位于“;”之前
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\base\game.h(60,2): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“base/crash_handler.cpp”)
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\util\definitions.h(9,20): error C2143: 语法错误: 缺少“;”(在“__stdcall”的前面)
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\util\definitions.h(9,11): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\util\definitions.h(9,26): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\util\definitions.h(22,17): error C3646: “FullDllName”: 未知重写说明符
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\util\definitions.h(22,2): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\util\definitions.h(23,17): error C3646: “BaseDllName”: 未知重写说明符
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\util\definitions.h(23,2): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“base/crash_handler.cpp”)
+  
+E:\evolv\base\crash_handler.cpp(12,1): error C2530: “crash_handler_t::func”: 必须初始化引用
+E:\evolv\base\crash_handler.cpp(14,2): error C2065: “exception_codes”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(15,2): error C2065: “exception_codes”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(16,2): error C2065: “exception_codes”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(17,2): error C2065: “exception_codes”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(18,2): error C2065: “exception_codes”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(19,2): error C2065: “exception_codes”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(20,2): error C2065: “exception_codes”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(21,2): error C2065: “exception_codes”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(22,2): error C2065: “exception_codes”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(23,2): error C2065: “exception_codes”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(24,2): error C2065: “exception_codes”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(25,2): error C2065: “exception_codes”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(26,2): error C2065: “exception_codes”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(27,2): error C2065: “exception_codes”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(28,2): error C2065: “exception_codes”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(29,2): error C2065: “exception_codes”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(30,2): error C2065: “exception_codes”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(31,2): error C2065: “exception_codes”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(32,2): error C2065: “exception_codes”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(33,2): error C2065: “exception_codes”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(61,6): error C2065: “ex”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(65,7): error C2065: “exception_codes”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(65,28): error C2065: “ex”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(65,67): error C2065: “exception_codes”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(66,21): error C2065: “exception_codes”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(66,37): error C2065: “ex”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(66,71): error C7733: 内置下标运算符需要单个表达式
+E:\evolv\base\crash_handler.cpp(67,77): error C2065: “ex”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(68,8): error C2065: “ex”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(73,88): error C2065: “ex”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(74,8): error C2065: “ex”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(74,32): error C2065: “ex”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(74,56): error C2065: “ex”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(75,88): error C2065: “ex”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(76,8): error C2065: “ex”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(76,32): error C2065: “ex”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(76,56): error C2065: “ex”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(77,88): error C2065: “ex”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(78,8): error C2065: “ex”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(78,35): error C2065: “ex”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(78,61): error C2065: “ex”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(79,90): error C2065: “ex”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(80,8): error C2065: “ex”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(80,34): error C2065: “ex”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(80,60): error C2065: “ex”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(83,11): error C2065: “std_ex”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(92,7): error C2664: “bool crash_handler_t::for_each_module(const int)”: 无法将参数 1 从“crash_handler_t::trace::<lambda_1>”转换为“const int”
+      E:\evolv\base\crash_handler.cpp(93,85):
+      没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      E:\evolv\base\crash_handler.h(23,7):
+      参见“crash_handler_t::for_each_module”的声明
+      E:\evolv\base\crash_handler.cpp(92,7):
+      尝试匹配参数列表“(crash_handler_t::trace::<lambda_1>)”时
+  
+E:\evolv\base\crash_handler.cpp(97,6): error C2065: “ex”: 未声明的标识符
+E:\evolv\base\crash_handler.cpp(108,67): error C2039: "mod": 不是 "crash_handler_t::trace_func_t" 的成员
+      E:\evolv\base\crash_handler.h(7,9):
+      参见“crash_handler_t::trace_func_t”的声明
+  
+E:\evolv\base\crash_handler.cpp(108,78): error C2039: "address": 不是 "crash_handler_t::trace_func_t" 的成员
+      E:\evolv\base\crash_handler.h(7,9):
+      参见“crash_handler_t::trace_func_t”的声明
+  
+E:\evolv\base\crash_handler.cpp(108,93): error C2039: "name": 不是 "crash_handler_t::trace_func_t" 的成员
+      E:\evolv\base\crash_handler.h(7,9):
+      参见“crash_handler_t::trace_func_t”的声明
+  
+E:\evolv\base\crash_handler.cpp(106,8): error C2664: “bool crash_handler_t::stackwalk(const int)”: 无法将参数 1 从“crash_handler_t::trace::<lambda_2>”转换为“const int”
+      E:\evolv\base\crash_handler.cpp(108,100):
+      没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      E:\evolv\base\crash_handler.h(24,7):
+      参见“crash_handler_t::stackwalk”的声明
+      E:\evolv\base\crash_handler.cpp(106,8):
+      尝试匹配参数列表“(crash_handler_t::trace::<lambda_2>)”时
+  
+E:\evolv\base\crash_handler.cpp(114,18): error C2511: “bool crash_handler_t::for_each_module(const std::function<void (const std::string &,uintptr_t,uintptr_t)> &)”:“crash_handler_t”中没有找到重载的成员函数
+      E:\evolv\base\crash_handler.h(5,7):
+      参见“crash_handler_t”的声明
+  
+E:\evolv\base\crash_handler.cpp(116,31): error C2027: 使用了未定义类型“_TEB”
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winnt.h(26063,8):
+      参见“_TEB”的声明
+  
+E:\evolv\base\crash_handler.cpp(116,13): error C2737: “peb”: 必须初始化 const 对象
+E:\evolv\base\crash_handler.cpp(117,7): error C3536: “peb”: 初始化之前无法使用
+E:\evolv\base\crash_handler.cpp(120,13): error C2737: “ldr”: 必须初始化 const 对象
+E:\evolv\base\crash_handler.cpp(121,7): error C3536: “ldr”: 初始化之前无法使用
+E:\evolv\base\crash_handler.cpp(124,13): error C2737: “head”: 必须初始化 const 对象
+E:\evolv\base\crash_handler.cpp(125,17): error C3536: “head”: 初始化之前无法使用
+E:\evolv\base\crash_handler.cpp(125,17): error C1003: 错误计数超过 100；正在停止编译
+  debug_overlay.cpp
+E:\evolv\base\game.h(60,2): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\gui_legacy\gui.h(37,46): error C3861: “CONSTANT”: 找不到标识符
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(111,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(111,2): error C3867: “sdk::ik_context::construct”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(112,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(112,2): error C3867: “sdk::ik_context::destruct”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(117,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(117,2): error C3867: “sdk::ik_context::init”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(122,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(122,2): error C3867: “sdk::ik_context::update_targets”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(126,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(126,2): error C3867: “sdk::ik_context::solve_dependencies”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(137,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(137,2): error C2065: “fn_is_breakable”: 未声明的标识符
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(140,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(140,2): error C2065: “fn_remove_viewmodel_arm_models”: 未声明的标识符
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(143,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(143,2): error C2065: “fn_update_viewmodel_arm_models”: 未声明的标识符
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(220,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(220,2): error C2065: “fn_emit_sound”: 未声明的标识符
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(223,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(223,2): error C2065: “fn_lookup_sequence”: 未声明的标识符
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(226,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(226,2): error C2065: “fn_get_sequence_activity”: 未声明的标识符
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(229,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(229,2): error C2065: “fn_lookup_bone”: 未声明的标识符
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2065: “weapon”: 未声明的标识符
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2065: “owner”: 未声明的标识符
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2065: “sequence”: 未声明的标识符
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(238,52): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(238,63): error C2065: “add_to_dirty_kd_tree”: 未声明的标识符
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(252,21): error C3313: “result”: 变量不能具有类型“const void”
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(254,8): error C3536: “result”: 初始化之前无法使用
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(295,28): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\entity.h(295,50): error C2065: “fn_on_simulation_time_changing”: 未声明的标识符
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2065: “health”: 未声明的标识符
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2065: “has_helmet”: 未声明的标识符
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2065: “has_defuser”: 未声明的标识符
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2065: “armor”: 未声明的标识符
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2065: “player_c4”: 未声明的标识符
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C2065: “clan”: 未声明的标识符
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C2065: “crosshair_codes”: 未声明的标识符
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C2065: “bombsite_center_a”: 未声明的标识符
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C2065: “bombsite_center_b”: 未声明的标识符
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\input.h(51,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\input.h(51,2): error C2065: “user_cmd_get_checksum”: 未声明的标识符
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(590,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(590,2): error C3867: “sdk::sequence_hash::find_hash”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(600,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(600,2): error C3867: “sdk::activity_mapping::reinitialize”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(741,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(741,2): error C3867: “sdk::cstudiohdr::init”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(744,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(744,2): error C3867: “sdk::cstudiohdr::init_softbody”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(747,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(747,2): error C3867: “sdk::cstudiohdr::find_mapping”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(748,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(748,2): error C3867: “sdk::cstudiohdr::index_model_sequences”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(708,80): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(708,96): error C2065: “lookup”: 未声明的标识符
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\math.h(104,65): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\math.h(104,62): error C2664: “uintptr_t util::encrypted_ptr<uintptr_t>::at(ptrdiff_t) const”: 无法将参数 1 从“int32_t (__cdecl *)(int32_t,int32_t)”转换为“ptrdiff_t”
+  (编译源文件“base/debug_overlay.cpp”)
+      E:\evolv\sdk\math.h(104,76):
+      没有使该转换得以执行的上下文
+      E:\evolv\util\value_obfuscation.h(57,33):
+      参见“util::encrypted_ptr<uintptr_t>::at”的声明
+      E:\evolv\sdk\math.h(104,62):
+      尝试匹配参数列表“(overloaded-function)”时
+  
+E:\evolv\sdk\math.h(109,59): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/debug_overlay.cpp”)
+  
+E:\evolv\sdk\math.h(109,59): error C1003: 错误计数超过 100；正在停止编译
+  (编译源文件“base/debug_overlay.cpp”)
+  
+  draw_manager.cpp
+E:\evolv\base\game.h(60,2): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\gui_legacy\gui.h(37,46): error C3861: “CONSTANT”: 找不到标识符
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(111,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(111,2): error C3867: “sdk::ik_context::construct”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(112,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(112,2): error C3867: “sdk::ik_context::destruct”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(117,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(117,2): error C3867: “sdk::ik_context::init”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(122,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(122,2): error C3867: “sdk::ik_context::update_targets”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(126,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(126,2): error C3867: “sdk::ik_context::solve_dependencies”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(137,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(137,2): error C2065: “fn_is_breakable”: 未声明的标识符
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(140,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(140,2): error C2065: “fn_remove_viewmodel_arm_models”: 未声明的标识符
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(143,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(143,2): error C2065: “fn_update_viewmodel_arm_models”: 未声明的标识符
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(220,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(220,2): error C2065: “fn_emit_sound”: 未声明的标识符
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(223,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(223,2): error C2065: “fn_lookup_sequence”: 未声明的标识符
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(226,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(226,2): error C2065: “fn_get_sequence_activity”: 未声明的标识符
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(229,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(229,2): error C2065: “fn_lookup_bone”: 未声明的标识符
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2065: “weapon”: 未声明的标识符
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2065: “owner”: 未声明的标识符
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2065: “sequence”: 未声明的标识符
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(238,52): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(238,63): error C2065: “add_to_dirty_kd_tree”: 未声明的标识符
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(252,21): error C3313: “result”: 变量不能具有类型“const void”
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(254,8): error C3536: “result”: 初始化之前无法使用
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(295,28): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(295,50): error C2065: “fn_on_simulation_time_changing”: 未声明的标识符
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2065: “health”: 未声明的标识符
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2065: “has_helmet”: 未声明的标识符
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2065: “has_defuser”: 未声明的标识符
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2065: “armor”: 未声明的标识符
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2065: “player_c4”: 未声明的标识符
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C2065: “clan”: 未声明的标识符
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C2065: “crosshair_codes”: 未声明的标识符
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C2065: “bombsite_center_a”: 未声明的标识符
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C2065: “bombsite_center_b”: 未声明的标识符
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\input.h(51,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\input.h(51,2): error C2065: “user_cmd_get_checksum”: 未声明的标识符
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(590,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(590,2): error C3867: “sdk::sequence_hash::find_hash”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(600,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(600,2): error C3867: “sdk::activity_mapping::reinitialize”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(741,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(741,2): error C3867: “sdk::cstudiohdr::init”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(744,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(744,2): error C3867: “sdk::cstudiohdr::init_softbody”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(747,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(747,2): error C3867: “sdk::cstudiohdr::find_mapping”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(748,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(748,2): error C3867: “sdk::cstudiohdr::index_model_sequences”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(708,80): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(708,96): error C2065: “lookup”: 未声明的标识符
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\math.h(104,65): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\math.h(104,62): error C2664: “uintptr_t util::encrypted_ptr<uintptr_t>::at(ptrdiff_t) const”: 无法将参数 1 从“int32_t (__cdecl *)(int32_t,int32_t)”转换为“ptrdiff_t”
+  (编译源文件“base/draw_manager.cpp”)
+      E:\evolv\sdk\math.h(104,76):
+      没有使该转换得以执行的上下文
+      E:\evolv\util\value_obfuscation.h(57,33):
+      参见“util::encrypted_ptr<uintptr_t>::at”的声明
+      E:\evolv\sdk\math.h(104,62):
+      尝试匹配参数列表“(overloaded-function)”时
+  
+E:\evolv\sdk\math.h(109,59): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/draw_manager.cpp”)
+  
+E:\evolv\sdk\math.h(109,59): error C1003: 错误计数超过 100；正在停止编译
+  (编译源文件“base/draw_manager.cpp”)
+  
+  event_log.cpp
+E:\evolv\util\misc.h(27,20): error C2976: “std::vector'”: 模板 参数太少
+  (编译源文件“base/event_log.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(27,40): error C2955: “std::vector”: 使用 类 模板 需要 模板 参数列表
+  (编译源文件“base/event_log.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(27,40): error C2027: 使用了未定义类型“std::vector”
+  (编译源文件“base/event_log.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(27,40): error C2079: “util::split”使用未定义的 class“std::vector”
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\util\misc.h(29,7): error C2976: “std::vector'”: 模板 参数太少
+  (编译源文件“base/event_log.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(29,30): error C2641: 无法推导“std::vector”的模板参数
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\util\misc.h(29,30): error C2783: “std::vector<<unnamed-symbol>,<unnamed-symbol>> std::vector(void)”: 无法推导“<unnamed-symbol>”的 模板 参数
+  (编译源文件“base/event_log.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(29,30): error C2783: “std::vector<<unnamed-symbol>,<unnamed-symbol>> std::vector(void)”: 无法推导“<unnamed-symbol>”的 模板 参数
+  (编译源文件“base/event_log.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(29,30): error C2780: “std::vector<<unnamed-symbol>,<unnamed-symbol>> std::vector(std::vector<<unnamed-symbol>,<unnamed-symbol>>)”: 应输入 1 个参数，却提供了 0 个
+  (编译源文件“base/event_log.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(35,3): error C2027: 使用了未定义类型“std::vector”
+  (编译源文件“base/event_log.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(39,2): error C2027: 使用了未定义类型“std::vector”
+  (编译源文件“base/event_log.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\base\game.h(60,2): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\gui_legacy\gui.h(37,46): error C3861: “CONSTANT”: 找不到标识符
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(111,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(111,2): error C3867: “sdk::ik_context::construct”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(112,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(112,2): error C3867: “sdk::ik_context::destruct”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(117,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(117,2): error C3867: “sdk::ik_context::init”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(122,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(122,2): error C3867: “sdk::ik_context::update_targets”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(126,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(126,2): error C3867: “sdk::ik_context::solve_dependencies”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(137,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(137,2): error C2065: “fn_is_breakable”: 未声明的标识符
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(140,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(140,2): error C2065: “fn_remove_viewmodel_arm_models”: 未声明的标识符
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(143,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(143,2): error C2065: “fn_update_viewmodel_arm_models”: 未声明的标识符
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(220,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(220,2): error C2065: “fn_emit_sound”: 未声明的标识符
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(223,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(223,2): error C2065: “fn_lookup_sequence”: 未声明的标识符
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(226,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(226,2): error C2065: “fn_get_sequence_activity”: 未声明的标识符
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(229,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(229,2): error C2065: “fn_lookup_bone”: 未声明的标识符
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2065: “weapon”: 未声明的标识符
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2065: “owner”: 未声明的标识符
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2065: “sequence”: 未声明的标识符
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(238,52): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(238,63): error C2065: “add_to_dirty_kd_tree”: 未声明的标识符
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(252,21): error C3313: “result”: 变量不能具有类型“const void”
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(254,8): error C3536: “result”: 初始化之前无法使用
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(295,28): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\entity.h(295,50): error C2065: “fn_on_simulation_time_changing”: 未声明的标识符
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2065: “health”: 未声明的标识符
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2065: “has_helmet”: 未声明的标识符
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2065: “has_defuser”: 未声明的标识符
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2065: “armor”: 未声明的标识符
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2065: “player_c4”: 未声明的标识符
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C2065: “clan”: 未声明的标识符
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C2065: “crosshair_codes”: 未声明的标识符
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C2065: “bombsite_center_a”: 未声明的标识符
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C2065: “bombsite_center_b”: 未声明的标识符
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\input.h(51,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\input.h(51,2): error C2065: “user_cmd_get_checksum”: 未声明的标识符
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(590,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(590,2): error C3867: “sdk::sequence_hash::find_hash”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(600,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(600,2): error C3867: “sdk::activity_mapping::reinitialize”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/event_log.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(600,2): error C1003: 错误计数超过 100；正在停止编译
+  (编译源文件“base/event_log.cpp”)
+  
+  game.cpp
+E:\evolv\util\misc.h(27,20): error C2976: “std::vector'”: 模板 参数太少
+  (编译源文件“base/game.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(27,40): error C2955: “std::vector”: 使用 类 模板 需要 模板 参数列表
+  (编译源文件“base/game.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(27,40): error C2027: 使用了未定义类型“std::vector”
+  (编译源文件“base/game.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(27,40): error C2079: “util::split”使用未定义的 class“std::vector”
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\util\misc.h(29,7): error C2976: “std::vector'”: 模板 参数太少
+  (编译源文件“base/game.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(29,30): error C2641: 无法推导“std::vector”的模板参数
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\util\misc.h(29,30): error C2783: “std::vector<<unnamed-symbol>,<unnamed-symbol>> std::vector(void)”: 无法推导“<unnamed-symbol>”的 模板 参数
+  (编译源文件“base/game.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(29,30): error C2783: “std::vector<<unnamed-symbol>,<unnamed-symbol>> std::vector(void)”: 无法推导“<unnamed-symbol>”的 模板 参数
+  (编译源文件“base/game.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(29,30): error C2780: “std::vector<<unnamed-symbol>,<unnamed-symbol>> std::vector(std::vector<<unnamed-symbol>,<unnamed-symbol>>)”: 应输入 1 个参数，却提供了 0 个
+  (编译源文件“base/game.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(35,3): error C2027: 使用了未定义类型“std::vector”
+  (编译源文件“base/game.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(39,2): error C2027: 使用了未定义类型“std::vector”
+  (编译源文件“base/game.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\base\game.h(60,2): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(111,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(111,2): error C3867: “sdk::ik_context::construct”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(112,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(112,2): error C3867: “sdk::ik_context::destruct”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(117,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(117,2): error C3867: “sdk::ik_context::init”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(122,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(122,2): error C3867: “sdk::ik_context::update_targets”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(126,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(126,2): error C3867: “sdk::ik_context::solve_dependencies”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(137,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(137,2): error C2065: “fn_is_breakable”: 未声明的标识符
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(140,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(140,2): error C2065: “fn_remove_viewmodel_arm_models”: 未声明的标识符
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(143,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(143,2): error C2065: “fn_update_viewmodel_arm_models”: 未声明的标识符
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(220,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(220,2): error C2065: “fn_emit_sound”: 未声明的标识符
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(223,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(223,2): error C2065: “fn_lookup_sequence”: 未声明的标识符
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(226,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(226,2): error C2065: “fn_get_sequence_activity”: 未声明的标识符
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(229,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(229,2): error C2065: “fn_lookup_bone”: 未声明的标识符
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2065: “weapon”: 未声明的标识符
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2065: “owner”: 未声明的标识符
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2065: “sequence”: 未声明的标识符
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(238,52): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(238,63): error C2065: “add_to_dirty_kd_tree”: 未声明的标识符
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(252,21): error C3313: “result”: 变量不能具有类型“const void”
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(254,8): error C3536: “result”: 初始化之前无法使用
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(295,28): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\entity.h(295,50): error C2065: “fn_on_simulation_time_changing”: 未声明的标识符
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2065: “health”: 未声明的标识符
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2065: “has_helmet”: 未声明的标识符
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2065: “has_defuser”: 未声明的标识符
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2065: “armor”: 未声明的标识符
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2065: “player_c4”: 未声明的标识符
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C2065: “clan”: 未声明的标识符
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C2065: “crosshair_codes”: 未声明的标识符
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C2065: “bombsite_center_a”: 未声明的标识符
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C2065: “bombsite_center_b”: 未声明的标识符
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\input.h(51,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\input.h(51,2): error C2065: “user_cmd_get_checksum”: 未声明的标识符
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(590,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(590,2): error C3867: “sdk::sequence_hash::find_hash”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(600,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(600,2): error C3867: “sdk::activity_mapping::reinitialize”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(741,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/game.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(741,2): error C1003: 错误计数超过 100；正在停止编译
+  (编译源文件“base/game.cpp”)
+  
+  hook_manager.cpp
+E:\evolv\base\game.h(60,2): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(111,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(111,2): error C3867: “sdk::ik_context::construct”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(112,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(112,2): error C3867: “sdk::ik_context::destruct”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(117,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(117,2): error C3867: “sdk::ik_context::init”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(122,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(122,2): error C3867: “sdk::ik_context::update_targets”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(126,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(126,2): error C3867: “sdk::ik_context::solve_dependencies”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(137,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(137,2): error C2065: “fn_is_breakable”: 未声明的标识符
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(140,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(140,2): error C2065: “fn_remove_viewmodel_arm_models”: 未声明的标识符
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(143,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(143,2): error C2065: “fn_update_viewmodel_arm_models”: 未声明的标识符
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(220,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(220,2): error C2065: “fn_emit_sound”: 未声明的标识符
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(223,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(223,2): error C2065: “fn_lookup_sequence”: 未声明的标识符
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(226,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(226,2): error C2065: “fn_get_sequence_activity”: 未声明的标识符
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(229,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(229,2): error C2065: “fn_lookup_bone”: 未声明的标识符
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2065: “weapon”: 未声明的标识符
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2065: “owner”: 未声明的标识符
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2065: “sequence”: 未声明的标识符
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(238,52): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(238,63): error C2065: “add_to_dirty_kd_tree”: 未声明的标识符
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(252,21): error C3313: “result”: 变量不能具有类型“const void”
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(254,8): error C3536: “result”: 初始化之前无法使用
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(295,28): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\entity.h(295,50): error C2065: “fn_on_simulation_time_changing”: 未声明的标识符
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2065: “health”: 未声明的标识符
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2065: “has_helmet”: 未声明的标识符
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2065: “has_defuser”: 未声明的标识符
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2065: “armor”: 未声明的标识符
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2065: “player_c4”: 未声明的标识符
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C2065: “clan”: 未声明的标识符
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C2065: “crosshair_codes”: 未声明的标识符
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C2065: “bombsite_center_a”: 未声明的标识符
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C2065: “bombsite_center_b”: 未声明的标识符
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\input.h(51,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\input.h(51,2): error C2065: “user_cmd_get_checksum”: 未声明的标识符
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(590,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(590,2): error C3867: “sdk::sequence_hash::find_hash”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(600,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(600,2): error C3867: “sdk::activity_mapping::reinitialize”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(741,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(741,2): error C3867: “sdk::cstudiohdr::init”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(744,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(744,2): error C3867: “sdk::cstudiohdr::init_softbody”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(747,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(747,2): error C3867: “sdk::cstudiohdr::find_mapping”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(748,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(748,2): error C3867: “sdk::cstudiohdr::index_model_sequences”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(708,80): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(708,96): error C2065: “lookup”: 未声明的标识符
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\math.h(104,65): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\math.h(104,62): error C2664: “uintptr_t util::encrypted_ptr<uintptr_t>::at(ptrdiff_t) const”: 无法将参数 1 从“int32_t (__cdecl *)(int32_t,int32_t)”转换为“ptrdiff_t”
+  (编译源文件“base/hook_manager.cpp”)
+      E:\evolv\sdk\math.h(104,76):
+      没有使该转换得以执行的上下文
+      E:\evolv\util\value_obfuscation.h(57,33):
+      参见“util::encrypted_ptr<uintptr_t>::at”的声明
+      E:\evolv\sdk\math.h(104,62):
+      尝试匹配参数列表“(overloaded-function)”时
+  
+E:\evolv\sdk\math.h(109,59): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“base/hook_manager.cpp”)
+  
+E:\evolv\sdk\math.h(109,56): error C2664: “uintptr_t util::encrypted_ptr<uintptr_t>::at(ptrdiff_t) const”: 无法将参数 1 从“float (__cdecl *)(float,float)”转换为“ptrdiff_t”
+  (编译源文件“base/hook_manager.cpp”)
+      E:\evolv\sdk\math.h(109,70):
+      没有使该转换得以执行的上下文
+      E:\evolv\util\value_obfuscation.h(57,33):
+      参见“util::encrypted_ptr<uintptr_t>::at”的声明
+      E:\evolv\sdk\math.h(109,56):
+      尝试匹配参数列表“(overloaded-function)”时
+  
+E:\evolv\sdk\math.h(109,56): error C1003: 错误计数超过 100；正在停止编译
+  (编译源文件“base/hook_manager.cpp”)
+  
+  aim_helper.cpp
+E:\evolv\base\game.h(60,2): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\gui_legacy\gui.h(37,46): error C3861: “CONSTANT”: 找不到标识符
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(111,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(111,2): error C3867: “sdk::ik_context::construct”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(112,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(112,2): error C3867: “sdk::ik_context::destruct”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(117,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(117,2): error C3867: “sdk::ik_context::init”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(122,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(122,2): error C3867: “sdk::ik_context::update_targets”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(126,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(126,2): error C3867: “sdk::ik_context::solve_dependencies”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(137,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(137,2): error C2065: “fn_is_breakable”: 未声明的标识符
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(140,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(140,2): error C2065: “fn_remove_viewmodel_arm_models”: 未声明的标识符
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(143,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(143,2): error C2065: “fn_update_viewmodel_arm_models”: 未声明的标识符
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(220,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(220,2): error C2065: “fn_emit_sound”: 未声明的标识符
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(223,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(223,2): error C2065: “fn_lookup_sequence”: 未声明的标识符
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(226,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(226,2): error C2065: “fn_get_sequence_activity”: 未声明的标识符
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(229,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(229,2): error C2065: “fn_lookup_bone”: 未声明的标识符
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2065: “weapon”: 未声明的标识符
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2065: “owner”: 未声明的标识符
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2065: “sequence”: 未声明的标识符
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(238,52): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(238,63): error C2065: “add_to_dirty_kd_tree”: 未声明的标识符
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(252,21): error C3313: “result”: 变量不能具有类型“const void”
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(254,8): error C3536: “result”: 初始化之前无法使用
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(295,28): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\entity.h(295,50): error C2065: “fn_on_simulation_time_changing”: 未声明的标识符
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2065: “health”: 未声明的标识符
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2065: “has_helmet”: 未声明的标识符
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2065: “has_defuser”: 未声明的标识符
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2065: “armor”: 未声明的标识符
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2065: “player_c4”: 未声明的标识符
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C2065: “clan”: 未声明的标识符
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C2065: “crosshair_codes”: 未声明的标识符
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C2065: “bombsite_center_a”: 未声明的标识符
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C2065: “bombsite_center_b”: 未声明的标识符
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\input.h(51,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\input.h(51,2): error C2065: “user_cmd_get_checksum”: 未声明的标识符
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(590,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(590,2): error C3867: “sdk::sequence_hash::find_hash”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(600,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(600,2): error C3867: “sdk::activity_mapping::reinitialize”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(741,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(741,2): error C3867: “sdk::cstudiohdr::init”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(744,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(744,2): error C3867: “sdk::cstudiohdr::init_softbody”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(747,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(747,2): error C3867: “sdk::cstudiohdr::find_mapping”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(748,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(748,2): error C3867: “sdk::cstudiohdr::index_model_sequences”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(708,80): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(708,96): error C2065: “lookup”: 未声明的标识符
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\math.h(104,65): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\math.h(104,62): error C2664: “uintptr_t util::encrypted_ptr<uintptr_t>::at(ptrdiff_t) const”: 无法将参数 1 从“int32_t (__cdecl *)(int32_t,int32_t)”转换为“ptrdiff_t”
+  (编译源文件“detail/aim_helper.cpp”)
+      E:\evolv\sdk\math.h(104,76):
+      没有使该转换得以执行的上下文
+      E:\evolv\util\value_obfuscation.h(57,33):
+      参见“util::encrypted_ptr<uintptr_t>::at”的声明
+      E:\evolv\sdk\math.h(104,62):
+      尝试匹配参数列表“(overloaded-function)”时
+  
+E:\evolv\sdk\math.h(109,59): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/aim_helper.cpp”)
+  
+E:\evolv\sdk\math.h(109,59): error C1003: 错误计数超过 100；正在停止编译
+  (编译源文件“detail/aim_helper.cpp”)
+  
+  custom_prediction.cpp
+E:\evolv\util\misc.h(27,20): error C2976: “std::vector'”: 模板 参数太少
+  (编译源文件“detail/custom_prediction.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(27,40): error C2955: “std::vector”: 使用 类 模板 需要 模板 参数列表
+  (编译源文件“detail/custom_prediction.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(27,40): error C2027: 使用了未定义类型“std::vector”
+  (编译源文件“detail/custom_prediction.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(27,40): error C2079: “util::split”使用未定义的 class“std::vector”
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\util\misc.h(29,7): error C2976: “std::vector'”: 模板 参数太少
+  (编译源文件“detail/custom_prediction.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(29,30): error C2641: 无法推导“std::vector”的模板参数
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\util\misc.h(29,30): error C2783: “std::vector<<unnamed-symbol>,<unnamed-symbol>> std::vector(void)”: 无法推导“<unnamed-symbol>”的 模板 参数
+  (编译源文件“detail/custom_prediction.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(29,30): error C2783: “std::vector<<unnamed-symbol>,<unnamed-symbol>> std::vector(void)”: 无法推导“<unnamed-symbol>”的 模板 参数
+  (编译源文件“detail/custom_prediction.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(29,30): error C2780: “std::vector<<unnamed-symbol>,<unnamed-symbol>> std::vector(std::vector<<unnamed-symbol>,<unnamed-symbol>>)”: 应输入 1 个参数，却提供了 0 个
+  (编译源文件“detail/custom_prediction.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(35,3): error C2027: 使用了未定义类型“std::vector”
+  (编译源文件“detail/custom_prediction.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(39,2): error C2027: 使用了未定义类型“std::vector”
+  (编译源文件“detail/custom_prediction.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\base\game.h(60,2): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(111,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(111,2): error C3867: “sdk::ik_context::construct”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(112,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(112,2): error C3867: “sdk::ik_context::destruct”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(117,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(117,2): error C3867: “sdk::ik_context::init”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(122,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(122,2): error C3867: “sdk::ik_context::update_targets”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(126,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(126,2): error C3867: “sdk::ik_context::solve_dependencies”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(137,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(137,2): error C2065: “fn_is_breakable”: 未声明的标识符
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(140,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(140,2): error C2065: “fn_remove_viewmodel_arm_models”: 未声明的标识符
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(143,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(143,2): error C2065: “fn_update_viewmodel_arm_models”: 未声明的标识符
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(220,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(220,2): error C2065: “fn_emit_sound”: 未声明的标识符
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(223,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(223,2): error C2065: “fn_lookup_sequence”: 未声明的标识符
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(226,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(226,2): error C2065: “fn_get_sequence_activity”: 未声明的标识符
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(229,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(229,2): error C2065: “fn_lookup_bone”: 未声明的标识符
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2065: “weapon”: 未声明的标识符
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2065: “owner”: 未声明的标识符
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2065: “sequence”: 未声明的标识符
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(238,52): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(238,63): error C2065: “add_to_dirty_kd_tree”: 未声明的标识符
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(252,21): error C3313: “result”: 变量不能具有类型“const void”
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(254,8): error C3536: “result”: 初始化之前无法使用
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(295,28): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\entity.h(295,50): error C2065: “fn_on_simulation_time_changing”: 未声明的标识符
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\input.h(51,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\input.h(51,2): error C2065: “user_cmd_get_checksum”: 未声明的标识符
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\game_rules.h(33,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\game_rules.h(33,3): error C2065: “freeze_period”: 未声明的标识符
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\game_rules.h(33,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\game_rules.h(33,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\game_rules.h(34,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\game_rules.h(34,3): error C2065: “warmup_period”: 未声明的标识符
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\game_rules.h(34,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\game_rules.h(34,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\game_rules.h(35,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\game_rules.h(35,3): error C2065: “match_waiting_for_resume”: 未声明的标识符
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\game_rules.h(35,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\game_rules.h(35,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\game_rules.h(36,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\game_rules.h(36,3): error C2065: “is_valve_ds”: 未声明的标识符
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\game_rules.h(36,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\game_rules.h(36,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\game_rules.h(37,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\game_rules.h(37,3): error C2065: “play_all_step_sounds_on_server”: 未声明的标识符
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\game_rules.h(37,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\game_rules.h(37,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2065: “health”: 未声明的标识符
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2065: “has_helmet”: 未声明的标识符
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2065: “has_defuser”: 未声明的标识符
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2065: “armor”: 未声明的标识符
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2065: “player_c4”: 未声明的标识符
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C1003: 错误计数超过 100；正在停止编译
+  (编译源文件“detail/custom_prediction.cpp”)
+  
+  custom_tracing.cpp
+E:\evolv\util\misc.h(27,20): error C2976: “std::vector'”: 模板 参数太少
+  (编译源文件“detail/custom_tracing.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(27,40): error C2955: “std::vector”: 使用 类 模板 需要 模板 参数列表
+  (编译源文件“detail/custom_tracing.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(27,40): error C2027: 使用了未定义类型“std::vector”
+  (编译源文件“detail/custom_tracing.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(27,40): error C2079: “util::split”使用未定义的 class“std::vector”
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\util\misc.h(29,7): error C2976: “std::vector'”: 模板 参数太少
+  (编译源文件“detail/custom_tracing.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(29,30): error C2641: 无法推导“std::vector”的模板参数
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\util\misc.h(29,30): error C2783: “std::vector<<unnamed-symbol>,<unnamed-symbol>> std::vector(void)”: 无法推导“<unnamed-symbol>”的 模板 参数
+  (编译源文件“detail/custom_tracing.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(29,30): error C2783: “std::vector<<unnamed-symbol>,<unnamed-symbol>> std::vector(void)”: 无法推导“<unnamed-symbol>”的 模板 参数
+  (编译源文件“detail/custom_tracing.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(29,30): error C2780: “std::vector<<unnamed-symbol>,<unnamed-symbol>> std::vector(std::vector<<unnamed-symbol>,<unnamed-symbol>>)”: 应输入 1 个参数，却提供了 0 个
+  (编译源文件“detail/custom_tracing.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(35,3): error C2027: 使用了未定义类型“std::vector”
+  (编译源文件“detail/custom_tracing.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(39,2): error C2027: 使用了未定义类型“std::vector”
+  (编译源文件“detail/custom_tracing.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\base\game.h(60,2): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\gui_legacy\gui.h(37,46): error C3861: “CONSTANT”: 找不到标识符
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(111,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(111,2): error C3867: “sdk::ik_context::construct”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(112,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(112,2): error C3867: “sdk::ik_context::destruct”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(117,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(117,2): error C3867: “sdk::ik_context::init”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(122,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(122,2): error C3867: “sdk::ik_context::update_targets”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(126,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(126,2): error C3867: “sdk::ik_context::solve_dependencies”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(137,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(137,2): error C2065: “fn_is_breakable”: 未声明的标识符
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(140,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(140,2): error C2065: “fn_remove_viewmodel_arm_models”: 未声明的标识符
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(143,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(143,2): error C2065: “fn_update_viewmodel_arm_models”: 未声明的标识符
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(220,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(220,2): error C2065: “fn_emit_sound”: 未声明的标识符
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(223,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(223,2): error C2065: “fn_lookup_sequence”: 未声明的标识符
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(226,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(226,2): error C2065: “fn_get_sequence_activity”: 未声明的标识符
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(229,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(229,2): error C2065: “fn_lookup_bone”: 未声明的标识符
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2065: “weapon”: 未声明的标识符
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2065: “owner”: 未声明的标识符
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2065: “sequence”: 未声明的标识符
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(238,52): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(238,63): error C2065: “add_to_dirty_kd_tree”: 未声明的标识符
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(252,21): error C3313: “result”: 变量不能具有类型“const void”
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(254,8): error C3536: “result”: 初始化之前无法使用
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(295,28): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\entity.h(295,50): error C2065: “fn_on_simulation_time_changing”: 未声明的标识符
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2065: “health”: 未声明的标识符
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2065: “has_helmet”: 未声明的标识符
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2065: “has_defuser”: 未声明的标识符
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2065: “armor”: 未声明的标识符
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2065: “player_c4”: 未声明的标识符
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C2065: “clan”: 未声明的标识符
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C2065: “crosshair_codes”: 未声明的标识符
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C2065: “bombsite_center_a”: 未声明的标识符
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C2065: “bombsite_center_b”: 未声明的标识符
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\input.h(51,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\input.h(51,2): error C2065: “user_cmd_get_checksum”: 未声明的标识符
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(590,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(590,2): error C3867: “sdk::sequence_hash::find_hash”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(600,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(600,2): error C3867: “sdk::activity_mapping::reinitialize”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(600,2): error C1003: 错误计数超过 100；正在停止编译
+  (编译源文件“detail/custom_tracing.cpp”)
+  
+  dispatch_queue.cpp
+E:\evolv\util\misc.h(27,20): error C2976: “std::vector'”: 模板 参数太少
+  (编译源文件“detail/dispatch_queue.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(27,40): error C2955: “std::vector”: 使用 类 模板 需要 模板 参数列表
+  (编译源文件“detail/dispatch_queue.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(27,40): error C2027: 使用了未定义类型“std::vector”
+  (编译源文件“detail/dispatch_queue.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(27,40): error C2079: “util::split”使用未定义的 class“std::vector”
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\util\misc.h(29,7): error C2976: “std::vector'”: 模板 参数太少
+  (编译源文件“detail/dispatch_queue.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(29,30): error C2641: 无法推导“std::vector”的模板参数
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\util\misc.h(29,30): error C2783: “std::vector<<unnamed-symbol>,<unnamed-symbol>> std::vector(void)”: 无法推导“<unnamed-symbol>”的 模板 参数
+  (编译源文件“detail/dispatch_queue.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(29,30): error C2783: “std::vector<<unnamed-symbol>,<unnamed-symbol>> std::vector(void)”: 无法推导“<unnamed-symbol>”的 模板 参数
+  (编译源文件“detail/dispatch_queue.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(29,30): error C2780: “std::vector<<unnamed-symbol>,<unnamed-symbol>> std::vector(std::vector<<unnamed-symbol>,<unnamed-symbol>>)”: 应输入 1 个参数，却提供了 0 个
+  (编译源文件“detail/dispatch_queue.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(35,3): error C2027: 使用了未定义类型“std::vector”
+  (编译源文件“detail/dispatch_queue.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(39,2): error C2027: 使用了未定义类型“std::vector”
+  (编译源文件“detail/dispatch_queue.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\base\game.h(60,2): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(111,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(111,2): error C3867: “sdk::ik_context::construct”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(112,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(112,2): error C3867: “sdk::ik_context::destruct”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(117,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(117,2): error C3867: “sdk::ik_context::init”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(122,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(122,2): error C3867: “sdk::ik_context::update_targets”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(126,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(126,2): error C3867: “sdk::ik_context::solve_dependencies”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(137,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(137,2): error C2065: “fn_is_breakable”: 未声明的标识符
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(140,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(140,2): error C2065: “fn_remove_viewmodel_arm_models”: 未声明的标识符
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(143,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(143,2): error C2065: “fn_update_viewmodel_arm_models”: 未声明的标识符
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(220,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(220,2): error C2065: “fn_emit_sound”: 未声明的标识符
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(223,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(223,2): error C2065: “fn_lookup_sequence”: 未声明的标识符
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(226,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(226,2): error C2065: “fn_get_sequence_activity”: 未声明的标识符
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(229,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(229,2): error C2065: “fn_lookup_bone”: 未声明的标识符
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2065: “weapon”: 未声明的标识符
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2065: “owner”: 未声明的标识符
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2065: “sequence”: 未声明的标识符
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(238,52): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(238,63): error C2065: “add_to_dirty_kd_tree”: 未声明的标识符
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(252,21): error C3313: “result”: 变量不能具有类型“const void”
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(254,8): error C3536: “result”: 初始化之前无法使用
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(295,28): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\entity.h(295,50): error C2065: “fn_on_simulation_time_changing”: 未声明的标识符
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\input.h(51,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\input.h(51,2): error C2065: “user_cmd_get_checksum”: 未声明的标识符
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\game_rules.h(33,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\game_rules.h(33,3): error C2065: “freeze_period”: 未声明的标识符
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\game_rules.h(33,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\game_rules.h(33,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\game_rules.h(34,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\game_rules.h(34,3): error C2065: “warmup_period”: 未声明的标识符
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\game_rules.h(34,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\game_rules.h(34,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\game_rules.h(35,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\game_rules.h(35,3): error C2065: “match_waiting_for_resume”: 未声明的标识符
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\game_rules.h(35,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\game_rules.h(35,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\game_rules.h(36,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\game_rules.h(36,3): error C2065: “is_valve_ds”: 未声明的标识符
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\game_rules.h(36,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\game_rules.h(36,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\game_rules.h(37,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\game_rules.h(37,3): error C2065: “play_all_step_sounds_on_server”: 未声明的标识符
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\game_rules.h(37,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\game_rules.h(37,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2065: “health”: 未声明的标识符
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2065: “has_helmet”: 未声明的标识符
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2065: “has_defuser”: 未声明的标识符
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2065: “armor”: 未声明的标识符
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2065: “player_c4”: 未声明的标识符
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C1003: 错误计数超过 100；正在停止编译
+  (编译源文件“detail/dispatch_queue.cpp”)
+  
+  dx_adapter.cpp
+E:\evolv\gui_legacy\gui.h(37,46): error C3861: “CONSTANT”: 找不到标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\gui_legacy\gui.h(52,38): error C2039: "vector": 不是 "std" 的成员
+  (编译源文件“detail/dx_adapter.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\cmath(1163,1):
+      参见“std”的声明
+  
+E:\evolv\gui_legacy\gui.h(52,38): error C2061: 语法错误: 标识符“vector”
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\detail\dx_adapter.h(39,7): error C3609: “detail::dx_adapter::polygon”: “final”函数必须是虚函数
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\engine_client.h(47,2): error C3861: “XOR_16”: 找不到标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\engine_client.h(55,2): error C3861: “XOR_16”: 找不到标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\engine_client.h(56,2): error C3861: “XOR_16”: 找不到标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\engine_client.h(59,2): error C3861: “XOR_16”: 找不到标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\engine_client.h(60,2): error C3861: “XOR_16”: 找不到标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\engine_client.h(63,2): error C3861: “XOR_16”: 找不到标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\engine_client.h(64,2): error C3861: “XOR_16”: 找不到标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\engine_client.h(65,2): error C3861: “XOR_16”: 找不到标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\engine_client.h(66,2): error C3861: “XOR_16”: 找不到标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\engine_client.h(67,2): error C3861: “XOR_16”: 找不到标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\engine_client.h(68,2): error C3861: “XOR_16”: 找不到标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\engine_client.h(69,2): error C3861: “XOR_16”: 找不到标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\engine_client.h(70,2): error C3861: “XOR_16”: 找不到标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\engine_client.h(71,2): error C3861: “XOR_16”: 找不到标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\engine_client.h(72,2): error C3861: “XOR_16”: 找不到标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\engine_client.h(73,2): error C3861: “XOR_16”: 找不到标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\engine_client.h(74,2): error C3861: “XOR_16”: 找不到标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\engine_client.h(75,2): error C3861: “XOR_16”: 找不到标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\engine_client.h(76,2): error C3861: “XOR_16”: 找不到标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\base\game.h(60,2): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(590,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(590,2): error C3867: “sdk::sequence_hash::find_hash”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(600,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(600,2): error C3867: “sdk::activity_mapping::reinitialize”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(741,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(741,2): error C3867: “sdk::cstudiohdr::init”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(744,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(744,2): error C3867: “sdk::cstudiohdr::init_softbody”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(747,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(747,2): error C3867: “sdk::cstudiohdr::find_mapping”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(748,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(748,2): error C3867: “sdk::cstudiohdr::index_model_sequences”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(708,80): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(708,96): error C2065: “lookup”: 未声明的标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\math.h(104,65): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\math.h(104,62): error C2664: “uintptr_t util::encrypted_ptr<uintptr_t>::at(ptrdiff_t) const”: 无法将参数 1 从“int32_t (__cdecl *)(int32_t,int32_t)”转换为“ptrdiff_t”
+  (编译源文件“detail/dx_adapter.cpp”)
+      E:\evolv\sdk\math.h(104,76):
+      没有使该转换得以执行的上下文
+      E:\evolv\util\value_obfuscation.h(57,33):
+      参见“util::encrypted_ptr<uintptr_t>::at”的声明
+      E:\evolv\sdk\math.h(104,62):
+      尝试匹配参数列表“(overloaded-function)”时
+  
+E:\evolv\sdk\math.h(109,59): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\math.h(109,56): error C2664: “uintptr_t util::encrypted_ptr<uintptr_t>::at(ptrdiff_t) const”: 无法将参数 1 从“float (__cdecl *)(float,float)”转换为“ptrdiff_t”
+  (编译源文件“detail/dx_adapter.cpp”)
+      E:\evolv\sdk\math.h(109,70):
+      没有使该转换得以执行的上下文
+      E:\evolv\util\value_obfuscation.h(57,33):
+      参见“util::encrypted_ptr<uintptr_t>::at”的声明
+      E:\evolv\sdk\math.h(109,56):
+      尝试匹配参数列表“(overloaded-function)”时
+  
+E:\evolv\sdk\math.h(114,47): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\math.h(114,44): error C2664: “uintptr_t util::encrypted_ptr<uintptr_t>::at(ptrdiff_t) const”: 无法将参数 1 从“void (__cdecl *)(uint32_t)”转换为“ptrdiff_t”
+  (编译源文件“detail/dx_adapter.cpp”)
+      E:\evolv\sdk\math.h(114,58):
+      没有使该转换得以执行的上下文
+      E:\evolv\util\value_obfuscation.h(57,33):
+      参见“util::encrypted_ptr<uintptr_t>::at”的声明
+      E:\evolv\sdk\math.h(114,44):
+      尝试匹配参数列表“(overloaded-function)”时
+  
+E:\evolv\sdk\math.h(122,33): error C2653: “globals”: 不是类或命名空间名称
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\math.h(122,42): error C2065: “world_to_screen”: 未声明的标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(111,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(111,2): error C3867: “sdk::ik_context::construct”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(112,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(112,2): error C3867: “sdk::ik_context::destruct”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(117,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(117,2): error C3867: “sdk::ik_context::init”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(122,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(122,2): error C3867: “sdk::ik_context::update_targets”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(126,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(126,2): error C3867: “sdk::ik_context::solve_dependencies”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(137,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(137,2): error C2065: “fn_is_breakable”: 未声明的标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(140,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(140,2): error C2065: “fn_remove_viewmodel_arm_models”: 未声明的标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(143,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(143,2): error C2065: “fn_update_viewmodel_arm_models”: 未声明的标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(220,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(220,2): error C2065: “fn_emit_sound”: 未声明的标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(223,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(223,2): error C2065: “fn_lookup_sequence”: 未声明的标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(226,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(226,2): error C2065: “fn_get_sequence_activity”: 未声明的标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(229,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(229,2): error C2065: “fn_lookup_bone”: 未声明的标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2065: “weapon”: 未声明的标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2065: “owner”: 未声明的标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2065: “sequence”: 未声明的标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(238,52): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(238,63): error C2065: “add_to_dirty_kd_tree”: 未声明的标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(252,21): error C3313: “result”: 变量不能具有类型“const void”
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(254,8): error C3536: “result”: 初始化之前无法使用
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(295,28): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\entity.h(295,50): error C2065: “fn_on_simulation_time_changing”: 未声明的标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2065: “health”: 未声明的标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2065: “has_helmet”: 未声明的标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2065: “has_defuser”: 未声明的标识符
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C1003: 错误计数超过 100；正在停止编译
+  (编译源文件“detail/dx_adapter.cpp”)
+  
+  entity_rendering.cpp
+E:\evolv\base\game.h(60,2): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(111,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(111,2): error C3867: “sdk::ik_context::construct”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(112,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(112,2): error C3867: “sdk::ik_context::destruct”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(117,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(117,2): error C3867: “sdk::ik_context::init”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(122,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(122,2): error C3867: “sdk::ik_context::update_targets”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(126,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(126,2): error C3867: “sdk::ik_context::solve_dependencies”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(137,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(137,2): error C2065: “fn_is_breakable”: 未声明的标识符
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(140,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(140,2): error C2065: “fn_remove_viewmodel_arm_models”: 未声明的标识符
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(143,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(143,2): error C2065: “fn_update_viewmodel_arm_models”: 未声明的标识符
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(220,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(220,2): error C2065: “fn_emit_sound”: 未声明的标识符
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(223,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(223,2): error C2065: “fn_lookup_sequence”: 未声明的标识符
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(226,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(226,2): error C2065: “fn_get_sequence_activity”: 未声明的标识符
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(229,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(229,2): error C2065: “fn_lookup_bone”: 未声明的标识符
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2065: “weapon”: 未声明的标识符
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2065: “owner”: 未声明的标识符
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2065: “sequence”: 未声明的标识符
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(238,52): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(238,63): error C2065: “add_to_dirty_kd_tree”: 未声明的标识符
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(252,21): error C3313: “result”: 变量不能具有类型“const void”
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(254,8): error C3536: “result”: 初始化之前无法使用
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(295,28): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\entity.h(295,50): error C2065: “fn_on_simulation_time_changing”: 未声明的标识符
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\input.h(51,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\input.h(51,2): error C2065: “user_cmd_get_checksum”: 未声明的标识符
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\game_rules.h(33,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\game_rules.h(33,3): error C2065: “freeze_period”: 未声明的标识符
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\game_rules.h(33,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\game_rules.h(33,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\game_rules.h(34,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\game_rules.h(34,3): error C2065: “warmup_period”: 未声明的标识符
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\game_rules.h(34,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\game_rules.h(34,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\game_rules.h(35,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\game_rules.h(35,3): error C2065: “match_waiting_for_resume”: 未声明的标识符
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\game_rules.h(35,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\game_rules.h(35,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\game_rules.h(36,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\game_rules.h(36,3): error C2065: “is_valve_ds”: 未声明的标识符
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\game_rules.h(36,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\game_rules.h(36,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\game_rules.h(37,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\game_rules.h(37,3): error C2065: “play_all_step_sounds_on_server”: 未声明的标识符
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\game_rules.h(37,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\game_rules.h(37,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2065: “health”: 未声明的标识符
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2065: “has_helmet”: 未声明的标识符
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2065: “has_defuser”: 未声明的标识符
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2065: “armor”: 未声明的标识符
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2065: “player_c4”: 未声明的标识符
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C2065: “clan”: 未声明的标识符
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C2065: “crosshair_codes”: 未声明的标识符
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C2065: “bombsite_center_a”: 未声明的标识符
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C2065: “bombsite_center_b”: 未声明的标识符
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C1003: 错误计数超过 100；正在停止编译
+  (编译源文件“detail/entity_rendering.cpp”)
+  
+  events.cpp
+E:\evolv\util\misc.h(27,20): error C2976: “std::vector'”: 模板 参数太少
+  (编译源文件“detail/events.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(27,40): error C2955: “std::vector”: 使用 类 模板 需要 模板 参数列表
+  (编译源文件“detail/events.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(27,40): error C2027: 使用了未定义类型“std::vector”
+  (编译源文件“detail/events.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(27,40): error C2079: “util::split”使用未定义的 class“std::vector”
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\util\misc.h(29,7): error C2976: “std::vector'”: 模板 参数太少
+  (编译源文件“detail/events.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(29,30): error C2641: 无法推导“std::vector”的模板参数
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\util\misc.h(29,30): error C2783: “std::vector<<unnamed-symbol>,<unnamed-symbol>> std::vector(void)”: 无法推导“<unnamed-symbol>”的 模板 参数
+  (编译源文件“detail/events.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(29,30): error C2783: “std::vector<<unnamed-symbol>,<unnamed-symbol>> std::vector(void)”: 无法推导“<unnamed-symbol>”的 模板 参数
+  (编译源文件“detail/events.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(29,30): error C2780: “std::vector<<unnamed-symbol>,<unnamed-symbol>> std::vector(std::vector<<unnamed-symbol>,<unnamed-symbol>>)”: 应输入 1 个参数，却提供了 0 个
+  (编译源文件“detail/events.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(35,3): error C2027: 使用了未定义类型“std::vector”
+  (编译源文件“detail/events.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(39,2): error C2027: 使用了未定义类型“std::vector”
+  (编译源文件“detail/events.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\base\game.h(60,2): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\gui_legacy\gui.h(37,46): error C3861: “CONSTANT”: 找不到标识符
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(111,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(111,2): error C3867: “sdk::ik_context::construct”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(112,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(112,2): error C3867: “sdk::ik_context::destruct”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(117,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(117,2): error C3867: “sdk::ik_context::init”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(122,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(122,2): error C3867: “sdk::ik_context::update_targets”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(126,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(126,2): error C3867: “sdk::ik_context::solve_dependencies”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(137,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(137,2): error C2065: “fn_is_breakable”: 未声明的标识符
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(140,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(140,2): error C2065: “fn_remove_viewmodel_arm_models”: 未声明的标识符
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(143,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(143,2): error C2065: “fn_update_viewmodel_arm_models”: 未声明的标识符
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(220,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(220,2): error C2065: “fn_emit_sound”: 未声明的标识符
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(223,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(223,2): error C2065: “fn_lookup_sequence”: 未声明的标识符
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(226,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(226,2): error C2065: “fn_get_sequence_activity”: 未声明的标识符
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(229,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(229,2): error C2065: “fn_lookup_bone”: 未声明的标识符
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2065: “weapon”: 未声明的标识符
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2065: “owner”: 未声明的标识符
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2065: “sequence”: 未声明的标识符
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(238,52): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(238,63): error C2065: “add_to_dirty_kd_tree”: 未声明的标识符
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(252,21): error C3313: “result”: 变量不能具有类型“const void”
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(254,8): error C3536: “result”: 初始化之前无法使用
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(295,28): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\entity.h(295,50): error C2065: “fn_on_simulation_time_changing”: 未声明的标识符
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2065: “health”: 未声明的标识符
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2065: “has_helmet”: 未声明的标识符
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2065: “has_defuser”: 未声明的标识符
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2065: “armor”: 未声明的标识符
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2065: “player_c4”: 未声明的标识符
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C2065: “clan”: 未声明的标识符
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C2065: “crosshair_codes”: 未声明的标识符
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C2065: “bombsite_center_a”: 未声明的标识符
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C2065: “bombsite_center_b”: 未声明的标识符
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\input.h(51,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\input.h(51,2): error C2065: “user_cmd_get_checksum”: 未声明的标识符
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(590,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(590,2): error C3867: “sdk::sequence_hash::find_hash”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(600,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(600,2): error C3867: “sdk::activity_mapping::reinitialize”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/events.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(600,2): error C1003: 错误计数超过 100；正在停止编译
+  (编译源文件“detail/events.cpp”)
+  
+  player_list.cpp
+E:\evolv\util\misc.h(27,20): error C2976: “std::vector'”: 模板 参数太少
+  (编译源文件“detail/player_list.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(27,40): error C2955: “std::vector”: 使用 类 模板 需要 模板 参数列表
+  (编译源文件“detail/player_list.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(27,40): error C2027: 使用了未定义类型“std::vector”
+  (编译源文件“detail/player_list.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(27,40): error C2079: “util::split”使用未定义的 class“std::vector”
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\util\misc.h(29,7): error C2976: “std::vector'”: 模板 参数太少
+  (编译源文件“detail/player_list.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(29,30): error C2641: 无法推导“std::vector”的模板参数
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\util\misc.h(29,30): error C2783: “std::vector<<unnamed-symbol>,<unnamed-symbol>> std::vector(void)”: 无法推导“<unnamed-symbol>”的 模板 参数
+  (编译源文件“detail/player_list.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(29,30): error C2783: “std::vector<<unnamed-symbol>,<unnamed-symbol>> std::vector(void)”: 无法推导“<unnamed-symbol>”的 模板 参数
+  (编译源文件“detail/player_list.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(29,30): error C2780: “std::vector<<unnamed-symbol>,<unnamed-symbol>> std::vector(std::vector<<unnamed-symbol>,<unnamed-symbol>>)”: 应输入 1 个参数，却提供了 0 个
+  (编译源文件“detail/player_list.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(35,3): error C2027: 使用了未定义类型“std::vector”
+  (编译源文件“detail/player_list.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(39,2): error C2027: 使用了未定义类型“std::vector”
+  (编译源文件“detail/player_list.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\base\game.h(60,2): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(111,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(111,2): error C3867: “sdk::ik_context::construct”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(112,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(112,2): error C3867: “sdk::ik_context::destruct”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(117,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(117,2): error C3867: “sdk::ik_context::init”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(122,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(122,2): error C3867: “sdk::ik_context::update_targets”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(126,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(126,2): error C3867: “sdk::ik_context::solve_dependencies”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(137,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(137,2): error C2065: “fn_is_breakable”: 未声明的标识符
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(140,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(140,2): error C2065: “fn_remove_viewmodel_arm_models”: 未声明的标识符
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(143,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(143,2): error C2065: “fn_update_viewmodel_arm_models”: 未声明的标识符
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(220,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(220,2): error C2065: “fn_emit_sound”: 未声明的标识符
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(223,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(223,2): error C2065: “fn_lookup_sequence”: 未声明的标识符
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(226,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(226,2): error C2065: “fn_get_sequence_activity”: 未声明的标识符
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(229,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(229,2): error C2065: “fn_lookup_bone”: 未声明的标识符
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2065: “weapon”: 未声明的标识符
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2065: “owner”: 未声明的标识符
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2065: “sequence”: 未声明的标识符
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(238,52): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(238,63): error C2065: “add_to_dirty_kd_tree”: 未声明的标识符
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(252,21): error C3313: “result”: 变量不能具有类型“const void”
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(254,8): error C3536: “result”: 初始化之前无法使用
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(295,28): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\entity.h(295,50): error C2065: “fn_on_simulation_time_changing”: 未声明的标识符
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\input.h(51,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\input.h(51,2): error C2065: “user_cmd_get_checksum”: 未声明的标识符
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\game_rules.h(33,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\game_rules.h(33,3): error C2065: “freeze_period”: 未声明的标识符
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\game_rules.h(33,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\game_rules.h(33,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\game_rules.h(34,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\game_rules.h(34,3): error C2065: “warmup_period”: 未声明的标识符
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\game_rules.h(34,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\game_rules.h(34,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\game_rules.h(35,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\game_rules.h(35,3): error C2065: “match_waiting_for_resume”: 未声明的标识符
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\game_rules.h(35,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\game_rules.h(35,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\game_rules.h(36,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\game_rules.h(36,3): error C2065: “is_valve_ds”: 未声明的标识符
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\game_rules.h(36,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\game_rules.h(36,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\game_rules.h(37,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\game_rules.h(37,3): error C2065: “play_all_step_sounds_on_server”: 未声明的标识符
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\game_rules.h(37,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\game_rules.h(37,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2065: “health”: 未声明的标识符
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2065: “has_helmet”: 未声明的标识符
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2065: “has_defuser”: 未声明的标识符
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2065: “armor”: 未声明的标识符
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2065: “player_c4”: 未声明的标识符
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/player_list.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C1003: 错误计数超过 100；正在停止编译
+  (编译源文件“detail/player_list.cpp”)
+  
+  shot_tracker.cpp
+E:\evolv\util\misc.h(27,20): error C2976: “std::vector'”: 模板 参数太少
+  (编译源文件“detail/shot_tracker.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(27,40): error C2955: “std::vector”: 使用 类 模板 需要 模板 参数列表
+  (编译源文件“detail/shot_tracker.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(27,40): error C2027: 使用了未定义类型“std::vector”
+  (编译源文件“detail/shot_tracker.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(27,40): error C2079: “util::split”使用未定义的 class“std::vector”
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\util\misc.h(29,7): error C2976: “std::vector'”: 模板 参数太少
+  (编译源文件“detail/shot_tracker.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(29,30): error C2641: 无法推导“std::vector”的模板参数
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\util\misc.h(29,30): error C2783: “std::vector<<unnamed-symbol>,<unnamed-symbol>> std::vector(void)”: 无法推导“<unnamed-symbol>”的 模板 参数
+  (编译源文件“detail/shot_tracker.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(29,30): error C2783: “std::vector<<unnamed-symbol>,<unnamed-symbol>> std::vector(void)”: 无法推导“<unnamed-symbol>”的 模板 参数
+  (编译源文件“detail/shot_tracker.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(29,30): error C2780: “std::vector<<unnamed-symbol>,<unnamed-symbol>> std::vector(std::vector<<unnamed-symbol>,<unnamed-symbol>>)”: 应输入 1 个参数，却提供了 0 个
+  (编译源文件“detail/shot_tracker.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(35,3): error C2027: 使用了未定义类型“std::vector”
+  (编译源文件“detail/shot_tracker.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\util\misc.h(39,2): error C2027: 使用了未定义类型“std::vector”
+  (编译源文件“detail/shot_tracker.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ranges_tuple_formatter.hpp(66,7):
+      参见“std::vector”的声明
+  
+E:\evolv\base\game.h(60,2): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\gui_legacy\gui.h(37,46): error C3861: “CONSTANT”: 找不到标识符
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(111,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(111,2): error C3867: “sdk::ik_context::construct”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(112,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(112,2): error C3867: “sdk::ik_context::destruct”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(117,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(117,2): error C3867: “sdk::ik_context::init”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(122,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(122,2): error C3867: “sdk::ik_context::update_targets”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(126,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(126,2): error C3867: “sdk::ik_context::solve_dependencies”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(137,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(137,2): error C2065: “fn_is_breakable”: 未声明的标识符
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(140,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(140,2): error C2065: “fn_remove_viewmodel_arm_models”: 未声明的标识符
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(143,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(143,2): error C2065: “fn_update_viewmodel_arm_models”: 未声明的标识符
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(220,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(220,2): error C2065: “fn_emit_sound”: 未声明的标识符
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(223,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(223,2): error C2065: “fn_lookup_sequence”: 未声明的标识符
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(226,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(226,2): error C2065: “fn_get_sequence_activity”: 未声明的标识符
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(229,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(229,2): error C2065: “fn_lookup_bone”: 未声明的标识符
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2065: “weapon”: 未声明的标识符
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(213,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2065: “owner”: 未声明的标识符
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(214,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2065: “sequence”: 未声明的标识符
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(215,2): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(238,52): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(238,63): error C2065: “add_to_dirty_kd_tree”: 未声明的标识符
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(252,21): error C3313: “result”: 变量不能具有类型“const void”
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(254,8): error C3536: “result”: 初始化之前无法使用
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(295,28): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\entity.h(295,50): error C2065: “fn_on_simulation_time_changing”: 未声明的标识符
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2065: “health”: 未声明的标识符
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(15,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2065: “has_helmet”: 未声明的标识符
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(17,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2065: “has_defuser”: 未声明的标识符
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(18,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2065: “armor”: 未声明的标识符
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(19,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2065: “player_c4”: 未声明的标识符
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(20,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C2065: “clan”: 未声明的标识符
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(21,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C2065: “crosshair_codes”: 未声明的标识符
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(22,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C2065: “bombsite_center_a”: 未声明的标识符
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(23,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C2653: “offsets”: 不是类或命名空间名称
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C2065: “bombsite_center_b”: 未声明的标识符
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C2737: “p”: 必须初始化 constexpr 对象
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\cs_player_resource.h(24,3): error C3536: “p”: 初始化之前无法使用
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\input.h(51,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\input.h(51,2): error C2065: “user_cmd_get_checksum”: 未声明的标识符
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(590,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(590,2): error C3867: “sdk::sequence_hash::find_hash”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(600,2): error C2653: “functions”: 不是类或命名空间名称
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(600,2): error C3867: “sdk::activity_mapping::reinitialize”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+E:\evolv\sdk\model_info_client.h(600,2): error C1003: 错误计数超过 100；正在停止编译
+  (编译源文件“detail/shot_tracker.cpp”)
+  
+  about_popup.cpp

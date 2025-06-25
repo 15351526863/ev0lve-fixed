@@ -4,28 +4,29 @@
 
 GUI_NAMESPACE;
 
+// TODO: 解决滑动条不跟随菜单开启/关闭进行渐入/渐出的问题
 void window::render()
 {
-        pfp_anim->animate();
-        src_anim->animate();
-        if (alpha_anim)
-                alpha_anim->animate();
+	pfp_anim->animate();
+	src_anim->animate();
+	if (alpha_anim)
+		alpha_anim->animate();
 
-        if (awaiting_hide && alpha_anim && alpha_anim->value == 0.f)
-        {
-                is_visible = false;
-                awaiting_hide = false;
-                return;
-        }
+	if (awaiting_hide && alpha_anim && alpha_anim->value == 0.f)
+	{
+		is_visible = false;
+		awaiting_hide = false;
+		return;
+	}
 
 	const auto r = area_abs();
 	const auto r_tab_line = r.margin_top(3.f).height(64.f);
 
-        auto &d = draw.layers[ctx->content_layer];
-        d->g.anti_alias = true;
-        const auto old_alpha_global = d->g.alpha;
-        if (alpha_anim)
-                d->g.alpha *= alpha_anim->value;
+	auto& d = draw.layers[ctx->content_layer];
+	d->g.anti_alias = true;
+	const auto old_alpha_global = d->g.alpha;
+	if (alpha_anim)
+		d->g.alpha *= alpha_anim->value;
 
 	// background
 	d->add_rect_filled_rounded(r.padding_top(3.f), colors.base.gray_darkest, 3.f, rnd_b);
@@ -38,9 +39,9 @@ void window::render()
 
 	d->add_glow(r_line_gradient, 8.f, colors.accents.accent.mod_a(.2f), gp_no_bottom);
 	d->add_rect_filled_rounded(r_line.height(6.f), colors.accents.accent_dark, 4.f, rnd_t);
-	d->add_rect_filled_multicolor(r_line_gradient_h, {colors.accents.accent_dark, colors.accents.accent, colors.accents.accent, colors.accents.accent_dark});
+	d->add_rect_filled_multicolor(r_line_gradient_h, { colors.accents.accent_dark, colors.accents.accent, colors.accents.accent, colors.accents.accent_dark });
 	d->add_rect_filled_multicolor(
-		r_line_gradient_h.margin_left(r_line_half_w), {colors.accents.accent, colors.accents.accent_dark, colors.accents.accent_dark, colors.accents.accent});
+		r_line_gradient_h.margin_left(r_line_half_w), { colors.accents.accent, colors.accents.accent_dark, colors.accents.accent_dark, colors.accents.accent });
 
 	// main line
 	d->add_rect_filled(r_tab_line, colors.base.gray);
@@ -61,17 +62,17 @@ void window::render()
 	d->g.texture = {};
 
 	// post logo delimiter
-	d->add_line(r_tab_line.tl() + vec2{76.f, 15.f}, r_tab_line.tl() + vec2{76.f, r_tab_line.height() - 12.f}, colors.outlines.outline_light);
+	d->add_line(r_tab_line.tl() + vec2{ 76.f, 15.f }, r_tab_line.tl() + vec2{ 76.f, r_tab_line.height() - 12.f }, colors.outlines.outline_light);
 
 	// search icon
 	const auto search_pos = get_search_pos();
 	d->g.texture = ctx->res.icons.search->obj;
-	d->add_rect_filled(rect(search_pos).size({30.f, 30.f}), src_anim->value);
+	d->add_rect_filled(rect(search_pos).size({ 30.f, 30.f }), src_anim->value);
 	d->g.texture = {};
 
 	// profile picture
 	const auto pfp_pos = get_avatar_pos();
-	const auto pfp_area = rect(pfp_pos).size({36.f, 36.f});
+	const auto pfp_area = rect(pfp_pos).size({ 36.f, 36.f });
 	//if (const auto tex = ctx->user.avatar; tex && tex->obj)
 	{
 		d->g.texture = ctx->res.general.avatar->obj;
@@ -86,8 +87,8 @@ void window::render()
 	d->g.alpha = pfp_anim->value;
 	d->add_rect_filled_rounded(pfp_area, color::black().mod_a(.7f), 4.f);
 	/*d->g.texture = ctx->res.icons.pfp_hover->obj;
-	d->add_rect_filled(pfp_area, color::white().mod_a(.46f));
-	d->g.texture = {};*/
+	  d->add_rect_filled(pfp_area, color::white().mod_a(.46f));
+	  d->g.texture = {};*/
 	d->g.alpha = old_alpha;
 
 	// pfp outline
@@ -97,9 +98,9 @@ void window::render()
 	d->add_shadow_line(r_tab_line.margin_top(64.f).height(7.f), shadow_down, .1f);
 	d->g.anti_alias = false;
 
-        control_container::render();
+	control_container::render();
 
-        d->g.alpha = old_alpha_global;
+	d->g.alpha = old_alpha_global;
 }
 
 void window::on_mouse_down(char key)
@@ -109,7 +110,7 @@ void window::on_mouse_down(char key)
 	const auto avatar_pos = get_avatar_pos();
 	if (is_mouse_on_avatar && ctx->active_popups.empty())
 	{
-		const auto p = std::make_shared<notifications_popup>(control_id{GUI_HASH("notifications"), XOR_STR("notifications")}, avatar_pos + vec2{0.f, 36.f});
+		const auto p = std::make_shared<notifications_popup>(control_id{ GUI_HASH("notifications"), XOR_STR("notifications") }, avatar_pos + vec2{ 0.f, 36.f });
 		p->open();
 
 		return;
@@ -117,7 +118,7 @@ void window::on_mouse_down(char key)
 
 	if (is_mouse_on_search && ctx->active_popups.empty())
 	{
-		const auto p = std::make_shared<search_popup>(control_id{GUI_HASH("search"), XOR_STR("search")}, get_search_pos() + vec2{0.f, 36.f});
+		const auto p = std::make_shared<search_popup>(control_id{ GUI_HASH("search"), XOR_STR("search") }, get_search_pos() + vec2{ 0.f, 36.f });
 		p->open();
 
 		return;
@@ -149,18 +150,18 @@ void window::on_mouse_up(char key)
 	}
 }
 
-void window::on_mouse_move(const vec2 &p, const vec2 &d)
+void window::on_mouse_move(const vec2& p, const vec2& d)
 {
 	control_container::on_mouse_move(p, d);
 
-	const auto is_on_avatar = rect(get_avatar_pos()).size({36.f, 36.f}).contains(input.cursor());
+	const auto is_on_avatar = rect(get_avatar_pos()).size({ 36.f, 36.f }).contains(input.cursor());
 	if (is_on_avatar != is_mouse_on_avatar)
 	{
 		pfp_anim->direct(is_on_avatar ? 1.f : 0.f);
 		is_mouse_on_avatar = is_on_avatar;
 	}
 
-	const auto is_on_search = rect(get_search_pos()).size({30.f, 30.f}).contains(input.cursor());
+	const auto is_on_search = rect(get_search_pos()).size({ 30.f, 30.f }).contains(input.cursor());
 	if (is_on_search != is_mouse_on_search)
 	{
 		src_anim->direct(is_on_search ? colors.texts.hover : colors.texts.disabled);
@@ -180,8 +181,8 @@ void window::on_mouse_move(const vec2 &p, const vec2 &d)
 	}
 }
 
-ren::vec2 window::get_avatar_pos() { return area_abs().tr() - vec2{50.f, -17.f}; }
+ren::vec2 window::get_avatar_pos() { return area_abs().tr() - vec2{ 50.f, -17.f }; }
 
-ren::vec2 window::get_search_pos() { return area_abs().tr() - vec2{89.f, -20.f}; }
+ren::vec2 window::get_search_pos() { return area_abs().tr() - vec2{ 89.f, -20.f }; }
 
-void window::add(const std::shared_ptr<control> &c) { control_container::add(c); }
+void window::add(const std::shared_ptr<control>& c) { control_container::add(c); }

@@ -25,6 +25,7 @@
 #include <sdk/weapon.h>
 #include <sdk/weapon_system.h>
 #include <lua/engine.h>
+#include <gsl/gsl>
 
 using namespace sdk;
 using namespace detail::aim_helper;
@@ -2206,20 +2207,22 @@ namespace detail
 	{
 		const auto hdr = player->get_studio_hdr();
 		const auto layers = player->get_animation_layers();
-		const bool non_local = !player->get_predictable();
+		const auto non_local = !player->get_predictable();
 
 		if (!hdr || !layers || layers->size() < 13)
 			return;
 
+		// keep track of old values.
 		game->mdl_cache->begin_lock();
-		const int   backup_effects = player->get_effects();
-		const int   backup_flags = player->get_lod_data().flags;
-		auto* const backup_ik = player->get_ik();
-		const float backup_layer12 = layers->at(12).weight;
-		const auto  backup_eye = *player->eye_angles();
-		const auto  backup_entire = player->get_snapshot_entire_body();
-		const auto  backup_upper = player->get_snapshot_upper_body();
+		const auto backup_effects = player->get_effects();
+		const auto backup_flags = player->get_lod_data().flags;
+		const auto backup_ik = player->get_ik();
+		const auto backup_layer = layers->at(12).weight;
+		const auto backup_eye = *player->eye_angles();
+		const auto backup_entire_body = player->get_snapshot_entire_body();
+		const auto backup_upper_body = player->get_snapshot_upper_body();
 
+		// stop interpolation, snapshots and other shit.
 		player->get_eflags() |= efl_setting_up_bones;
 		player->get_effects() |= cs_player_t::ef_nointerp;
 		player->get_lod_data().flags = lod_empty;
@@ -2228,80 +2231,72 @@ namespace detail
 		if (this != &local_fake_record)
 			layers->at(12).weight = 0.f;
 
-		auto networked_eye = *player->eye_angles();
-		networked_eye.x = std::clamp(std::remainderf(networked_eye.x, yaw_bounds),
-			-pitch_bounds, pitch_bounds);
-
-		const auto last_eye = GET_PLAYER_ENTRY(player).previous_angle;
-
-		bool pitch_jitter = false;
-		if (non_local)                                          
-		{
-			// Compute relative difference and scale‑free reference value.
-			const float pitch_delta = std::fabs(std::remainderf(networked_eye.x - last_eye.x, 360.f));
-			const float mean_pitch = 0.5f * (std::fabs(networked_eye.x) + std::fabs(last_eye.x));
-
-			// Flag as jitter when instantaneous change is greater than data‑driven mean magnitude.
-			pitch_jitter = pitch_delta > mean_pitch && mean_pitch > 0.0f;
-
-			if (pitch_jitter)
-			{
-				networked_eye.x = last_eye.x;
-			}
-		}
-
-		has_previous_matrix =
-			pitch_jitter ||
-			std::fabs(std::remainderf(last_eye.y - std::remainderf(networked_eye.y, yaw_bounds),
-				yaw_bounds)) > 2.0f;
-
-		if (do_not_set && has_previous_matrix)
-		{
-			memcpy(res_mat[direction], previous_res_mat[direction],
-				sizeof(res_mat[direction]));
-			game->mdl_cache->end_lock();
-			return;
-		}
-
+		// setup temporary storage for inverse kinematics.
 		ik_context ik;
-		alignas(16) vec3 pos[max_bones]{};
-		alignas(16) quaternion_aligned q[max_bones]{};
-		uint8_t computed[max_bones]{};
-		int32_t  chain[max_bones]{};
-
-		const auto angle = abs_ang[direction];
+		uint8_t computed[0x100]{};
+		auto angle = abs_ang[direction];
 		auto& out = res_mat[direction];
-		const int  mask = bone_used_by_anything;
+		ik.init(hdr, &angle, &origin, sim_time, game->globals->framecount,
+			XOR_32(bone_used_by_hitbox | bone_used_by_attachment));
 
-		ik.init(hdr, const_cast<sdk::angle*>(&angle), &origin, sim_time, game->globals->framecount,
-			bone_used_by_hitbox | bone_used_by_attachment);
-
+		// perform bone blending.
+		alignas(16) vec3 pos[max_bones] = {};
+		alignas(16) quaternion_aligned q[max_bones] = {};
 		player->get_ik() = &ik;
+		const auto mask = XOR_32(bone_used_by_anything);
 		player->standard_blending_rules(hdr, pos, q, sim_time, mask);
 		ik.update_targets(pos, q, out, computed);
 		ik.solve_dependencies(pos, q, out, computed);
 
-		const int chain_len = hdr->numbones();
-		for (int i = 0; i < chain_len; ++i)
-			chain[chain_len - i - 1] = i;
+		// build chain.
+		int32_t chain[max_bones] = {};
+		const auto chain_length = hdr->numbones();
+		for (auto i = 0; i < chain_length; i++)
+			chain[chain_length - i - 1] = i;
 
-		const auto rot = angle_matrix(angle, origin);
-		for (int idx = chain_len - 1; idx >= 0; --idx)
+		// build transformations.
+		const auto rotation = angle_matrix(angle, origin);
+		for (auto j = chain_length - 1; j >= 0; j--)
 		{
-			const int bone = chain[idx];
-			const int parent = hdr->bone_parent.count() > bone ? hdr->bone_parent[bone] : -1;
-			const auto bone_mat = quaternion_matrix(q[bone], pos[bone]);
+			const auto i = chain[j];
+			const auto parent = hdr->bone_parent.count() > i ? &hdr->bone_parent[i] : nullptr;
 
-			out[bone] = (parent == -1) ? concat_transforms(rot, bone_mat)
-				: concat_transforms(out[parent], bone_mat);
+			if (!parent)
+				continue;
+
+			const auto qua = quaternion_matrix(q[i], pos[i]);
+
+			if (*parent == -1)
+				out[i] = concat_transforms(rotation, qua);
+			else
+				out[i] = concat_transforms(out[*parent], qua);
 		}
+
+		auto networked_eye = *player->eye_angles();
+		networked_eye.x = std::clamp(std::remainderf(networked_eye.x, yaw_bounds), -pitch_bounds, pitch_bounds);
+		auto last_eye = GET_PLAYER_ENTRY(player).previous_angle;
+
+		if (non_local)
+		{
+			// TODO: consider handling jittering pitch here.
+
+			has_previous_matrix =
+				fabsf(std::remainderf(last_eye.y - std::remainderf(networked_eye.y, yaw_bounds), yaw_bounds)) > 2.f;
+
+			if (override_bounds_change_time != 0.f)
+			{
+				player->get_bounds_change_time() = override_bounds_change_time;
+				player->get_view_height() = override_view_height;
+			}
+		}
+
+		memcpy(unprocessed_mat, out, sizeof(out));
 
 		if (direction == resolver_max)
 		{
 			player->eye_angles()->z = get_resolver_roll(resolver_max_max);
 			memcpy(res_mat[resolver_max_max], out, sizeof(out));
 			player->post_build_transformations(res_mat[resolver_max_max], mask);
-
 			player->eye_angles()->z = get_resolver_roll(resolver_max_extra);
 			memcpy(res_mat[resolver_max_extra], out, sizeof(out));
 			player->post_build_transformations(res_mat[resolver_max_extra], mask);
@@ -2312,7 +2307,6 @@ namespace detail
 				player->eye_angles()->z = get_resolver_roll(resolver_max_max);
 				memcpy(previous_res_mat[resolver_max_max], out, sizeof(out));
 				player->post_build_transformations(previous_res_mat[resolver_max_max], mask);
-
 				player->eye_angles()->z = get_resolver_roll(resolver_max_extra);
 				memcpy(previous_res_mat[resolver_max_extra], out, sizeof(out));
 				player->post_build_transformations(previous_res_mat[resolver_max_extra], mask);
@@ -2323,7 +2317,6 @@ namespace detail
 			player->eye_angles()->z = get_resolver_roll(resolver_min_min);
 			memcpy(res_mat[resolver_min_min], out, sizeof(out));
 			player->post_build_transformations(res_mat[resolver_min_min], mask);
-
 			player->eye_angles()->z = get_resolver_roll(resolver_min_extra);
 			memcpy(res_mat[resolver_min_extra], out, sizeof(out));
 			player->post_build_transformations(res_mat[resolver_min_extra], mask);
@@ -2334,7 +2327,6 @@ namespace detail
 				player->eye_angles()->z = get_resolver_roll(resolver_min_min);
 				memcpy(previous_res_mat[resolver_min_min], out, sizeof(out));
 				player->post_build_transformations(previous_res_mat[resolver_min_min], mask);
-
 				player->eye_angles()->z = get_resolver_roll(resolver_min_extra);
 				memcpy(previous_res_mat[resolver_min_extra], out, sizeof(out));
 				player->post_build_transformations(previous_res_mat[resolver_min_extra], mask);
@@ -2357,14 +2349,15 @@ namespace detail
 
 		player->post_build_transformations(out, mask);
 
+		// restore original values.
 		player->get_eflags() &= ~efl_setting_up_bones;
 		player->get_effects() = backup_effects;
 		player->get_lod_data().flags = backup_flags;
 		player->get_ik() = backup_ik;
-		layers->at(12).weight = backup_layer12;
+		layers->at(12).weight = backup_layer;
 		*player->eye_angles() = backup_eye;
-		player->get_snapshot_entire_body() = backup_entire;
-		player->get_snapshot_upper_body() = backup_upper;
+		player->get_snapshot_entire_body() = backup_entire_body;
+		player->get_snapshot_upper_body() = backup_upper_body;
 		game->mdl_cache->end_lock();
 	}
 
@@ -2552,321 +2545,328 @@ namespace detail
 		return pred;
 	}
 
-	// note to myself: there are still a few minor bugs in this implementation, some situations where you move very slowly
-	// and ducking. none of these situations have any influence on the weapon_t shoot position, so we are going to clean up
-	// later (TM).
 	void lag_record::play_additional_animations(sdk::user_cmd* const cmd,
 		const sdk::anim_state& pred_state)
 	{
-		// -------------------------------------------------------------------------
-		//  Pre‑flight validation
-		// -------------------------------------------------------------------------
-		if (!player->get_anim_state() ||
-			!player->get_anim_state()->player ||
-			!player->get_studio_hdr() ||
-			!cmd)
+		if (!cmd)
 			return;
 
-		// -------------------------------------------------------------------------
-		//  Convenience aliases / helpers
-		// -------------------------------------------------------------------------
-		auto* const s = player->get_anim_state();      // local anim‑state
-		const auto* p = &pred_state;                   // predicted frame
-		const float  dt = std::max(0.f, p->last_update - s->last_update);
-		const int    seed = cmd->command_number;
+		auto* anim_state = player->get_anim_state();
+		auto* hdr = player->get_studio_hdr();
+		if (!anim_state || anim_state->player != player || !hdr)
+			return;
 
-		const auto  wpn = reinterpret_cast<sdk::weapon_t*>(
+		// Prevent division by zero
+		constexpr float kEps = 1.0e-6f;
+		const float raw_dt = pred_state.last_update - anim_state->last_update;
+		const float update_dt = raw_dt > kEps ? raw_dt : kEps;
+
+		auto* layers_ptr = player->get_animation_layers();
+		if (!layers_ptr || layers_ptr->size() < 13)
+			return;
+
+		auto& layers = *layers_ptr;
+		auto& addon_ref = addon;
+		const int seed = cmd->command_number;
+
+		auto* weapon = reinterpret_cast<sdk::weapon_t*>(
 			game->client_entity_list->get_client_entity_from_handle(player->get_active_weapon()));
-		auto  world = wpn ? reinterpret_cast<sdk::entity_t*>(
-			game->client_entity_list->get_client_entity_from_handle(wpn->get_weapon_world_model()))
+
+		auto* world_model = weapon
+			? reinterpret_cast<sdk::entity_t*>(
+				game->client_entity_list->get_client_entity_from_handle(weapon->get_weapon_world_model()))
 			: nullptr;
 
-		// lambda: dispatch a player animation in the traditional CCS style
-		const auto dispatch_anim = [&, this](int layer, uint32_t act)
+		const auto start_activity = [&](int dst_layer, uint32_t act)
 			{
-				player->try_initiate_animation(layer, act, addon.activity_modifiers, seed);
+				if (dst_layer < 0 || static_cast<std::size_t>(dst_layer) >= layers.size())
+					return;
+
+				player->try_initiate_animation(dst_layer, act, addon_ref.activity_modifiers, seed);
 			};
 
-		// build / refresh activity‑modifier table once
-		player_list.build_activity_modifiers(player, addon.activity_modifiers);
+		static uint32_t cached_defidx = 0;
+		static float    cached_duck = -1.f;
+		if (!weapon || weapon->get_item_definition_index() != cached_defidx ||
+			std::fabs(pred_state.duck_amount - cached_duck) > 0.05f)
+		{
+			player_list.build_activity_modifiers(player, addon_ref.activity_modifiers);
+			cached_defidx = weapon ? weapon->get_item_definition_index() : 0;
+			cached_duck = pred_state.duck_amount;
+		}
 
-		// -------------------------------------------------------------------------
-		//  1)  Event‑driven sequences (jump, knife swings, reloads, draws, etc.)
-		// -------------------------------------------------------------------------
-
-		// 1‑A.  Jump start – performed exactly once when we leave the ground
 		if ((cmd->buttons & sdk::user_cmd::jump) &&
 			!(player->get_flags() & sdk::cs_player_t::on_ground) &&
-			s->on_ground)
+			anim_state->on_ground)
 		{
-			dispatch_anim( /*layer*/4, XOR_32(985));   // ACT_PLAYER_JUMP
-			addon.in_jump = true;
+			start_activity(4, XOR_32(985));
+			addon_ref.in_jump = true;
 		}
 
-		// 1‑B.  Viewmodel‑specific one‑shot events (swing, reload, pull‑pin, …)
-		//       NOTE:  The switch is intentionally laid out in ACT order so groups
-		//              of cases can fall through to shared code paths.
-		switch (addon.vm)
+		auto& layer_action = layers.at(1);
+		const int action_act = player->get_sequence_activity(layer_action.sequence);
+		bool increment_action_layer = true;
+
+		const auto toggle_swing_left = [&]()
+			{
+				addon_ref.swing_left = !addon_ref.swing_left;
+				return addon_ref.swing_left;
+			};
+
+		if (weapon && weapon->get_weapon_type() == sdk::weapontype_knife &&
+			weapon->get_next_primary_attack() + 0.40f < game->globals->curtime)
+			addon_ref.swing_left = true;
+
+		switch (addon_ref.vm)
 		{
-			// Knife stab / swing – fall through to shared handler
-		case 219: case 190: case 192: case 477:           // ACT_VM_HITCENTER / _SLASH…
-		{
-			// Don’t play knife anim while holding C4
-			if (wpn && wpn->get_item_definition_index() == sdk::item_definition_index::weapon_c4)
-				break;
-
-			dispatch_anim( /*layer*/1, XOR_32(961));
-			break;
-		}
-
-		// Knife swing (alternating left / right)
-		case 200: case 206:                               // ACT_VM_MISSCENTER(2)
-		{
-			dispatch_anim(1, addon.swing_left ? XOR_32(962) : XOR_32(961));
-			addon.swing_left = !addon.swing_left;
-			break;
-		}
-
-		case 211:                                         // ACT_VM_SWINGHIT
-		{
-			dispatch_anim(1, XOR_32(963));
-			addon.swing_left = !addon.swing_left;
-			break;
-		}
-
-		// Secondary knife attack
-		case 193:                                         // ACT_VM_SECONDARYATTACK
-			dispatch_anim(1, XOR_32(964));
+		case 219: case 190: case 192: case 477:
+			if (weapon && weapon->get_item_definition_index() != sdk::item_definition_index::weapon_c4)
+				start_activity(1, XOR_32(961));
 			break;
 
-			// Heavy knife swing
-		case 201: case 207:                               // ACT_VM_HITCENTER2 / MISSCENTER2
-			dispatch_anim(1, XOR_32(964)); addon.swing_left = true; break;
-		case 209:                                         // ACT_VM_SWINGHARD
-			dispatch_anim(1, XOR_32(965)); addon.swing_left = true; break;
-
-			// Reloads (shotgun has bespoke start/loop/finish)
-		case 194: case 831:                               // ACT_VM_RELOAD / SECONDARY_RELOAD
-			dispatch_anim(1, (wpn && wpn->get_weapon_type() == sdk::weapontype_shotgun &&
-				wpn->get_item_definition_index() != sdk::item_definition_index::weapon_mag7)
-				? XOR_32(969)   // shotgun‑specific
-				: XOR_32(967)); // generic reload
+		case 200: case 206:
+			start_activity(1, toggle_swing_left() ? XOR_32(962) : XOR_32(961));
 			break;
-		case 264:                                         // ACT_SHOTGUN_RELOAD_START
-			dispatch_anim(1, XOR_32(968));            break;
-		case 265:                                         // ACT_SHOTGUN_RELOAD_FINISH
-			dispatch_anim(1, XOR_32(970));            break;
 
-			// Grenade pull‑pin
-		case 191:                                         // ACT_VM_PULLPIN
-			dispatch_anim(1, XOR_32(971));            break;
-
-			// Deploy / draw
-		case 183: case 224: case 481:                     // ACT_VM_DRAW family
-		{
-			const auto act = XOR_32(972);
-			const auto is_early = (player->get_sequence_activity(
-				player->get_animation_layers()->at(1).sequence) == act) &&
-				player->get_animation_layers()->at(1).cycle < .15f;
-
-			if (is_early) addon.in_rate_limit = true;
-			else            dispatch_anim(1, act);
+		case 211:
+			start_activity(1, XOR_32(963));
+			toggle_swing_left();
 			break;
-		}
+
+		case 193:
+			start_activity(1, XOR_32(964));
+			break;
+
+		case 201: case 207:
+			start_activity(1, XOR_32(964));
+			addon_ref.swing_left = true;
+			break;
+
+		case 209:
+			start_activity(1, XOR_32(965));
+			addon_ref.swing_left = true;
+			break;
+
+		case 194: case 831:
+			if (weapon &&
+				weapon->get_weapon_type() == sdk::weapontype_shotgun &&
+				weapon->get_item_definition_index() != sdk::item_definition_index::weapon_mag7)
+				start_activity(1, XOR_32(969));
+			else
+				start_activity(1, XOR_32(967));
+			break;
+
+		case 264:
+			start_activity(1, XOR_32(968));
+			break;
+
+		case 265:
+			start_activity(1, XOR_32(970));
+			break;
+
+		case 191:
+			start_activity(1, XOR_32(971));
+			break;
+
+		case 183: case 224: case 481:
+			if (weapon && action_act == XOR_32(972) && layer_action.cycle < 0.15f)
+			{
+				addon_ref.in_rate_limit = true;
+			}
+			else
+			{
+				start_activity(1, XOR_32(972));
+			}
+			break;
+
 		default:
 			break;
 		}
 
-		// Reset VM token – always.
-		addon.vm = 0;
-
-		// -------------------------------------------------------------------------
-		//  2)  Layer‑3 “adjust” logic (lower‑body adjust / recenter)
-		// -------------------------------------------------------------------------
-		auto& layer3 = player->get_animation_layers()->at(3);
-
-		// Initiate adjust when coming to rest
-		if (!s->adjust_started &&
-			p->speed <= 0.f &&
-			s->standing_time <= 0.f &&
-			s->on_ground && !s->on_ladder && !s->in_hit_ground &&
-			s->stutter_step < 50.f)
+		if (weapon && addon_ref.in_rate_limit && action_act == XOR_32(972))
 		{
-			dispatch_anim(3, XOR_32(980));    // ACT_CSGO_IDLE_TURN_BALANCEADJUST
-			s->adjust_started = true;
+			if (world_model)
+				world_model->get_effects() |= sdk::ef_nodraw;
+
+			if (layer_action.cycle >= 0.15f)
+			{
+				addon_ref.in_rate_limit = false;
+				start_activity(1, XOR_32(972));
+				increment_action_layer = false;
+
+				// fixed bug where weapon world model would not be drawn
+				if (world_model)
+					world_model->get_effects() &= ~sdk::ef_nodraw;
+			}
 		}
 
-		// Maintain / fade adjust
-		const auto layer3_act = player->get_sequence_activity(layer3.sequence);
-		if (layer3_act == XOR_32(980) || layer3_act == XOR_32(979))
+		auto& layer_adjust = layers.at(3);
+		const int l3_act = player->get_sequence_activity(layer_adjust.sequence);
+
+		if (!anim_state->adjust_started &&
+			pred_state.speed <= 0.f &&
+			anim_state->standing_time <= 0.f &&
+			anim_state->on_ground && !anim_state->on_ladder &&
+			!anim_state->in_hit_ground && anim_state->stutter_step < 50.f)
 		{
-			if (s->adjust_started && p->ducking_speed <= .25f)
+			start_activity(3, XOR_32(980));
+			anim_state->adjust_started = true;
+		}
+
+		if (l3_act == XOR_32(980) || l3_act == XOR_32(979))
+		{
+			if (anim_state->adjust_started && pred_state.ducking_speed <= 0.25f)
 			{
-				layer3.increment_layer_cycle_weight_rate_generic(dt, player->get_studio_hdr());
-				s->adjust_started = !layer3.has_sequence_completed(dt);
+				layer_adjust.increment_layer_cycle_weight_rate_generic(update_dt, hdr);
+				anim_state->adjust_started = !layer_adjust.has_sequence_completed(update_dt);
 			}
 			else
 			{
-				const float old = layer3.weight;
-				layer3.weight = std::clamp(old - dt * 5.f, 0.f, 1.f);
-				layer3.set_layer_weight_rate(dt, old);
-				s->adjust_started = false;
+				const float prev_w = layer_adjust.weight;
+				layer_adjust.weight = approach(0.f, prev_w, update_dt * 5.f);
+				layer_adjust.set_layer_weight_rate(update_dt, prev_w);
+				anim_state->adjust_started = false;
 			}
 		}
 
-		// Store weight for the caller (it gets restored after anim update)
-		addon.adjust_weight = layer3.weight;
-		layer3.weight = 0.f;   // prevent double‑blend inside Update()
+		if (pred_state.speed <= 1.f && anim_state->on_ground && !anim_state->on_ladder &&
+			!anim_state->in_hit_ground &&
+			std::fabs(angle_diff(anim_state->foot_yaw, pred_state.foot_yaw)) / update_dt > 120.f)
+		{
+			start_activity(3, XOR_32(979));
+			anim_state->adjust_started = true;
+		}
 
-		// -------------------------------------------------------------------------
-		//  3)  Movement‑dependent strafing flag
-		// -------------------------------------------------------------------------
+		addon_ref.adjust_weight = layer_adjust.weight;
+		layer_adjust.weight = 0.f;
+
+		auto& layer_alive = layers.at(11);
+		if (player->get_sequence_activity(layer_alive.sequence) == XOR_32(981))
+		{
+			if (pred_state.weapon && pred_state.weapon != pred_state.last_weapon)
+			{
+				const float saved_cycle = layer_alive.cycle;
+				start_activity(11, XOR_32(981));
+				layer_alive.cycle = saved_cycle;
+			}
+			else if (!layer_alive.has_sequence_completed(update_dt))
+			{
+				const float t = std::clamp((pred_state.walk_speed - 0.55f) / 0.35f, 0.f, 1.f);
+				layer_alive.weight = 1.f - t;
+			}
+		}
+
+		if (increment_action_layer)
+		{
+			layer_action.increment_layer_cycle(update_dt, false);
+
+			const float old_w = layer_action.weight;
+			layer_action.set_layer_ideal_weight_from_sequence_cycle(hdr);
+			layer_action.set_layer_weight_rate(pred_state.last_increment, layer_action.weight);
+
+			layer_action.cycle = std::clamp(
+				layer_action.cycle - pred_state.last_increment * layer_action.playback_rate,
+				0.f, 1.f);
+			layer_action.weight = std::clamp(
+				layer_action.weight - pred_state.last_increment * layer_action.weight_delta_rate,
+				1.0e-7f, 1.f);
+		}
+
+		static const auto recrouch_generic = XOR_STR_STORE("recrouch_generic");
+		static const auto crouch_token = XOR_STR_STORE("crouch");
+
+		auto& recrouch = layers.at(2);
+		float desired_w = 0.f;
+
+		if (layer_action.weight > 0.f)
+		{
+			if (recrouch.sequence <= 0)
+			{
+				XOR_STR_STACK(rgen, recrouch_generic);
+				const int seq = player->lookup_sequence(rgen);
+				recrouch.sequence = seq;
+				recrouch.playback_rate = player->get_layer_sequence_cycle_rate(&recrouch, seq);
+				recrouch.cycle = recrouch.weight = 0.f;
+			}
+
+			bool has_crouch_mod = false;
+			const auto& seqdesc = hdr->get_seq_desc(layer_action.sequence);
+			XOR_STR_STACK(crouch_str, crouch_token);
+			for (int i = 0; i < seqdesc->numactivitymodifiers; ++i)
+				if (!std::strcmp(seqdesc->get_activity_modifier(i)->get_name(), crouch_str))
+				{
+					has_crouch_mod = true;
+					break;
+				}
+
+			if (has_crouch_mod)
+			{
+				if (pred_state.duck_amount < 1.f)
+					desired_w = layer_action.weight * (1.f - pred_state.duck_amount);
+			}
+			else if (pred_state.duck_amount > 0.f)
+			{
+				desired_w = layer_action.weight * pred_state.duck_amount;
+			}
+		}
+		else if (recrouch.weight > 0.f)
+		{
+			desired_w = approach(0.f, recrouch.weight, 4.f * update_dt);
+			if (desired_w <= 0.f)
+				recrouch.sequence = 0;
+		}
+
+		recrouch.weight = std::clamp(desired_w, 0.f, 1.f);
+
 		if (player->get_predictable())
 		{
-			sdk::vec3 fwd, rgt, up;
-			sdk::angle_vectors({ 0.f, p->foot_yaw, 0.f }, fwd, rgt, up);
-			rgt.normalize();
+			sdk::vec3 fwd, right, up;
+			angle_vectors({ 0.f, pred_state.foot_yaw, 0.f }, fwd, right, up);
+			right.normalize();
 
-			const float fwd_dot = p->last_accel_speed.dot(fwd);
-			const float rgt_dot = p->last_accel_speed.dot(rgt);
+			const float dot_fwd = pred_state.last_accel_speed.dot(fwd);
+			const float dot_side = pred_state.last_accel_speed.dot(right);
 
-			const bool move_r = cmd->buttons & sdk::user_cmd::move_right;
-			const bool move_l = cmd->buttons & sdk::user_cmd::move_left;
-			const bool move_f = cmd->buttons & sdk::user_cmd::forward;
-			const bool move_b = cmd->buttons & sdk::user_cmd::back;
+			const bool move_r = (cmd->buttons & sdk::user_cmd::move_right) != 0;
+			const bool move_l = (cmd->buttons & sdk::user_cmd::move_left) != 0;
+			const bool move_f = (cmd->buttons & sdk::user_cmd::forward) != 0;
+			const bool move_b = (cmd->buttons & sdk::user_cmd::back) != 0;
 
-			const bool strafe_f = (p->running_speed >= .65f && move_f && !move_b && fwd_dot < -.55f);
-			const bool strafe_b = (p->running_speed >= .65f && move_b && !move_f && fwd_dot > .55f);
-			const bool strafe_r = (p->running_speed >= .73f && move_r && !move_l && rgt_dot < -.63f);
-			const bool strafe_l = (p->running_speed >= .73f && move_l && !move_r && rgt_dot > .63f);
+			const bool strafe_f = pred_state.running_speed >= 0.65f && move_f && !move_b && dot_fwd < -0.55f;
+			const bool strafe_b = pred_state.running_speed >= 0.65f && move_b && !move_f && dot_fwd > 0.55f;
+			const bool strafe_r = pred_state.running_speed >= 0.73f && move_r && !move_l && dot_side < -0.63f;
+			const bool strafe_l = pred_state.running_speed >= 0.73f && move_l && !move_r && dot_side > 0.63f;
 
-			player->get_strafing() = (strafe_f || strafe_b || strafe_r || strafe_l);
+			player->get_strafing() = strafe_f || strafe_b || strafe_r || strafe_l;
 		}
 
-		// -------------------------------------------------------------------------
-		//  4)  Landing / ladder / air‑time logic (layers 4 & 5)
-		// -------------------------------------------------------------------------
-		const bool ground_changed = (s->on_ground != p->on_ground) || (s->on_ladder != p->on_ladder);
+		const bool ground_swap =
+			(anim_state->on_ground != pred_state.on_ground) ||
+			(anim_state->on_ladder != pred_state.on_ladder);
 
-		// Ladder enter
-		if (!s->on_ladder && p->on_ladder)
-			dispatch_anim(5, XOR_32(987)); // ladder‑climb loop
+		if (!anim_state->on_ladder && pred_state.on_ladder)
+			start_activity(5, XOR_32(987));
 
-		// Land / airborne transitions
-		if (p->on_ground)
+		if (pred_state.on_ground)
 		{
-			auto& layer5 = player->get_animation_layers()->at(5);
+			auto& layer5 = layers.at(5);
 
-			if (!s->in_hit_ground && ground_changed)
-				dispatch_anim(5, (s->air_time > 1.f) ? XOR_32(989) : XOR_32(988)); // heavy / light land
+			if (!anim_state->in_hit_ground && ground_swap)
+				start_activity(5, pred_state.air_time > 1.f ? XOR_32(989) : XOR_32(988));
 
-			// suppress stale jump‑loop layer once grounded
-			if (!p->in_hit_ground && !addon.in_jump && p->ladder_speed <= 0.f)
+			if (pred_state.in_hit_ground &&
+				player->get_sequence_activity(layer5.sequence) != XOR_32(987))
+				addon_ref.in_jump = false;
+
+			if (!pred_state.in_hit_ground && !addon_ref.in_jump && pred_state.ladder_speed <= 0.f)
 				layer5.weight = 0.f;
 		}
-		else if (ground_changed && !addon.in_jump)
+		else if (ground_swap && !addon_ref.in_jump)
 		{
-			// Leaving ground – play “jump float”
-			dispatch_anim(4, XOR_32(986));  // ACT_CSGO_JUMP
+			start_activity(4, XOR_32(986));
 		}
 
-		// Reset in‑jump flag once land anim finishes
-		if (p->in_hit_ground &&
-			player->get_sequence_activity(player->get_animation_layers()->at(5).sequence) != XOR_32(987))
-		{
-			addon.in_jump = false;
-		}
-
-		// -------------------------------------------------------------------------
-		//  5)  Layer 11 alive‑loop (weapon sway idle)
-		// -------------------------------------------------------------------------
-		auto& alive = player->get_animation_layers()->at(11);
-		if (player->get_sequence_activity(alive.sequence) == XOR_32(981))          // ACT_CSGO_ALIVE_LOOP
-		{
-			if (p->weapon && p->weapon != p->last_weapon)
-			{
-				// restart with new weapon’s stats
-				const float cyc = alive.cycle;   // preserve frame‑position
-				dispatch_anim(11, XOR_32(981));
-				alive.cycle = cyc;
-			}
-			else if (!alive.has_sequence_completed(dt))
-			{
-				// Smoothly blend weight according to walk speed
-				const float tgt = 1.f - std::clamp((p->walk_speed - .55f) / .35f, 0.f, 1.f);
-				alive.weight = std::lerp(alive.weight, tgt, dt * 6.f);
-			}
-		}
-
-		// -------------------------------------------------------------------------
-		//  6)  Handle “rate‑limited” deploy draw logic (weapon still hidden)
-		// -------------------------------------------------------------------------
-		if (addon.in_rate_limit)
-		{
-			if (world) world->get_effects() |= sdk::ef_nodraw; // hide view‑model in 1p & 3p
-
-			auto& action = player->get_animation_layers()->at(1);
-			if (action.cycle >= .15f)
-			{
-				// finished – re‑issue the real draw and clear flag
-				addon.in_rate_limit = false;
-				dispatch_anim(1, XOR_32(972));
-			}
-		}
-
-		// -------------------------------------------------------------------------
-		//  7)  Re‑crouch layer (layer 2) – fixes slow‑walk duck flicker
-		// -------------------------------------------------------------------------
-		auto& reCrouch = player->get_animation_layers()->at(2);
-		float target_weight = 0.f;
-
-		if (auto& action = player->get_animation_layers()->at(1); action.weight > 0.f)
-		{
-			// lazily create the recrouch sequence if we have a valid action
-			if (reCrouch.sequence <= 0)
-			{
-				XOR_STR_STACK(rc_generic, recrouch_generic);
-				const int seq = player->lookup_sequence(rc_generic);
-				reCrouch.sequence = seq;
-				reCrouch.playback_rate = player->get_layer_sequence_cycle_rate(&reCrouch, seq);
-				reCrouch.cycle = reCrouch.weight = 0.f;
-			}
-
-			const bool hasCrouchMod = [&]
-				{
-					XOR_STR_STACK(mod_crouch, crouch);
-					const auto* desc = player->get_studio_hdr()->get_seq_desc(action.sequence);
-					for (int i = 0; i < desc->numactivitymodifiers; ++i)
-						if (!strcmp(desc->get_activity_modifier(i)->get_name(), mod_crouch))
-							return true;
-					return false;
-				}();
-
-			if (hasCrouchMod)
-			{
-				if (p->duck_amount < 1.f) target_weight = action.weight * (1.f - p->duck_amount);
-			}
-			else if (p->duck_amount > 0.f)
-			{
-				target_weight = action.weight * p->duck_amount;
-			}
-		}
-
-		// graceful fade‑out
-		if (target_weight == 0.f && reCrouch.weight > 0.f)
-			target_weight = max(0.f, reCrouch.weight - 4.f * dt);
-
-		reCrouch.weight = std::clamp(target_weight, 0.f, 1.f);
-
-		// -------------------------------------------------------------------------
-		//  8)  Final bookkeeping & safety
-		// -------------------------------------------------------------------------
-		if (addon.in_rate_limit && world == nullptr)
-			addon.in_rate_limit = false; // handle rare null‑model edge‑case
-
-		// ensure we never leave effects flag stuck when rate‑limit ends
-		if (!addon.in_rate_limit && world)
-			world->get_effects() &= ~sdk::ef_nodraw;
+		addon_ref.vm = 0;
 	}
 
 	float lag_record::get_resolver_roll(std::optional<resolver_direction> direction_override)

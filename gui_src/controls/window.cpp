@@ -4,7 +4,7 @@
 
 GUI_NAMESPACE;
 
-// Scrollbars now fade together with the menu
+// TODO：解决菜单背景（在group之后）不跟随菜单开启/关闭 进行渐入/渐出的问题
 void window::render()
 {
 	pfp_anim->animate();

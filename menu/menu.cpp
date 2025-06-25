@@ -270,50 +270,61 @@ void menu_manager::create()
 
 void menu_manager::toggle()
 {
-	if (const auto wnd = main_wnd.lock(); wnd && can_toggle)
-	{
-		wnd->is_visible = !wnd->is_visible;
-		wnd->is_taking_input = wnd->is_visible;
+        if (const auto wnd = main_wnd.lock(); wnd && can_toggle)
+        {
+                const bool open = !(wnd->is_visible && !wnd->awaiting_hide);
 
-		if (!wnd->is_visible)
-		{
-			ctx->active = nullptr;
-			for (const auto& p : ctx->active_popups)
-				p->close();
-		}
+                if (open)
+                {
+                        wnd->is_visible = true;
+                        wnd->awaiting_hide = false;
+                        if (wnd->alpha_anim)
+                                wnd->alpha_anim->direct(1.f);
+                }
+                else
+                {
+                        wnd->awaiting_hide = true;
+                        if (wnd->alpha_anim)
+                                wnd->alpha_anim->direct(0.f);
 
-		ctx->should_render_cursor = wnd->is_visible;
+                        ctx->active = nullptr;
+                        for (const auto& p : ctx->active_popups)
+                                p->close();
+                }
+
+                wnd->is_taking_input = open;
+                ctx->should_render_cursor = open;
 
 		const auto hotkeys = ctx->find(::gui::widgets::active_hotkeys_id);
 		if (hotkeys)
 		{
 			const auto wdg = hotkeys->as<widget>();
-			wdg->is_forced_visibility = wnd->is_visible;
-			wdg->is_taking_input = wnd->is_visible;
+                        wdg->is_forced_visibility = open;
+                        wdg->is_taking_input = open;
 		}
 
 		const auto indicators = ctx->find(::gui::widgets::indicators_id);
 		if (indicators)
 		{
 			const auto wdg = indicators->as<widget>();
-			wdg->is_forced_visibility = wnd->is_visible;
-			wdg->is_taking_input = wnd->is_visible;
+                        wdg->is_forced_visibility = open;
+                        wdg->is_taking_input = open;
 		}
 
 		const auto spectators = ctx->find(::gui::widgets::spectators_id);
 		if (spectators)
 		{
 			const auto wdg = spectators->as<widget>();
-			wdg->is_forced_visibility = wnd->is_visible;
-			wdg->is_taking_input = wnd->is_visible;
+                        wdg->is_forced_visibility = open;
+                        wdg->is_taking_input = open;
 		}
 
 		const auto bomb = ctx->find(::gui::widgets::bomb_id);
 		if (bomb)
 		{
 			const auto wdg = bomb->as<widget>();
-			wdg->is_forced_visibility = wnd->is_visible;
-			wdg->is_taking_input = wnd->is_visible;
+                        wdg->is_forced_visibility = open;
+                        wdg->is_taking_input = open;
 		}
 
 		if (!cfg.misc.menu_movement.get())

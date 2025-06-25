@@ -6,14 +6,26 @@ GUI_NAMESPACE;
 
 void window::render()
 {
-	pfp_anim->animate();
-	src_anim->animate();
+        pfp_anim->animate();
+        src_anim->animate();
+        if (alpha_anim)
+                alpha_anim->animate();
+
+        if (awaiting_hide && alpha_anim && alpha_anim->value == 0.f)
+        {
+                is_visible = false;
+                awaiting_hide = false;
+                return;
+        }
 
 	const auto r = area_abs();
 	const auto r_tab_line = r.margin_top(3.f).height(64.f);
 
-	auto &d = draw.layers[ctx->content_layer];
-	d->g.anti_alias = true;
+        auto &d = draw.layers[ctx->content_layer];
+        d->g.anti_alias = true;
+        const auto old_alpha_global = d->g.alpha;
+        if (alpha_anim)
+                d->g.alpha *= alpha_anim->value;
 
 	// background
 	d->add_rect_filled_rounded(r.padding_top(3.f), colors.base.gray_darkest, 3.f, rnd_b);
@@ -85,7 +97,9 @@ void window::render()
 	d->add_shadow_line(r_tab_line.margin_top(64.f).height(7.f), shadow_down, .1f);
 	d->g.anti_alias = false;
 
-	control_container::render();
+        control_container::render();
+
+        d->g.alpha = old_alpha_global;
 }
 
 void window::on_mouse_down(char key)

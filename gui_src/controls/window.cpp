@@ -21,11 +21,16 @@ void window::render()
 	const auto r = area_abs();
 	const auto r_tab_line = r.margin_top(3.f).height(64.f);
 
-        auto &d = draw.layers[ctx->content_layer];
-        d->g.anti_alias = true;
-        const auto old_alpha_global = d->g.alpha;
-        if (alpha_anim)
-                d->g.alpha *= alpha_anim->value;
+       auto &d = draw.layers[ctx->content_layer];
+       auto &dt = draw.layers[ctx->scrollbar_layer];
+       d->g.anti_alias = true;
+       const auto old_alpha_global = d->g.alpha;
+       const auto old_alpha_scrollbar = dt->g.alpha;
+       if (alpha_anim)
+       {
+               d->g.alpha *= alpha_anim->value;
+               dt->g.alpha *= alpha_anim->value;
+       }
 
 	// background
 	d->add_rect_filled_rounded(r.padding_top(3.f), colors.base.gray_darkest, 3.f, rnd_b);
@@ -99,7 +104,8 @@ void window::render()
 
         control_container::render();
 
-        d->g.alpha = old_alpha_global;
+       d->g.alpha = old_alpha_global;
+       dt->g.alpha = old_alpha_scrollbar;
 }
 
 void window::on_mouse_down(char key)
